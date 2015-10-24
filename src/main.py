@@ -2,9 +2,12 @@ import sys
 import math
 import string
 import overlap
+import NamedEntityRecognizer
 
 def main():
-    
+
+
+
     global textList
     textList = []
 
@@ -28,7 +31,8 @@ def formatFileToList(file):
     for line in file:
         #change to lowercase and remove line breaks
         toLower = str.lower(line).rstrip('\r\n')
-        
+
+        named_entities = NamedEntityRecognizer.NamedEntityRecognizer(line)
         #remove punctuation
         formattedLine = "".join(c for c in toLower if c not in string.punctuation)
         fileList.append(formattedLine)
