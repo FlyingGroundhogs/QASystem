@@ -4,15 +4,27 @@ import  nltk
 
 
 class NamedEntityRecognizer:
-    def __init__(self, sentence):
+
+    def __init__(self):
+       x = 32
+
+    def initialize(self, sentence):
        self.sentence = sentence
 
-       tokens = nltk.word_tokenize(self.sentence)
+       self.tokens = nltk.word_tokenize(sentence)
 
        #do POS tagging on these tokens
-       tagged = nltk.pos_tag(tokens)
+       tagged = nltk.pos_tag(self.tokens)
 
        #get the named entities
+       self.entities = nltk.chunk.ne_chunk(tagged, False)
 
-       entities = nltk.chunk.ne_chunk(tagged)
-       x = 32
+
+
+
+    def printEntities(self):
+         print self.entities
+
+
+
+
