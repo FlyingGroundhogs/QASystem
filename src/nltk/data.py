@@ -11,20 +11,15 @@ grammars, and saved processing objects.  Resource files are identified
 using URLs, such as ``nltk:corpora/abc/rural.txt`` or
 ``http://nltk.org/sample/toy.cfg``.  The following URL protocols are
 supported:
-
   - ``file:path``: Specifies the file whose path is *path*.
     Both relative and absolute paths may be used.
-
   - ``http://host/path``: Specifies the file stored on the web
     server *host* at path *path*.
-
   - ``nltk:path``: Specifies the file stored in the NLTK data
     package at *path*.  NLTK will search for these files in the
     directories specified by ``nltk.data.path``.
-
 If no protocol is specified, then the default protocol ``nltk:`` will
 be used.
-
 This module provides to functions that can be used to access a
 resource file, given its URL: ``load()`` loads a given resource, and
 adds it to a resource cache; and ``retrieve()`` copies a given resource
@@ -71,6 +66,7 @@ path = []
    substitute in their own versions of resources, if they have them
    (e.g., in their home directory under ~/nltk_data)."""
 
+
 # User-specified locations:
 _paths_from_env = os.environ.get('NLTK_DATA', str('')).split(os.pathsep)
 path += [d for d in _paths_from_env if d]
@@ -110,7 +106,6 @@ def gzip_open_unicode(filename, mode="rb", compresslevel=9,
 def split_resource_url(resource_url):
     """
     Splits a resource url into "<protocol>:<path>".
-
     >>> windows = sys.platform.startswith('win')
     >>> split_resource_url('nltk:home/nltk')
     ('nltk', 'home/nltk')
@@ -137,7 +132,6 @@ def split_resource_url(resource_url):
 def normalize_resource_url(resource_url):
     r"""
     Normalizes a resource url
-
     >>> windows = sys.platform.startswith('win')
     >>> os.path.normpath(split_resource_url(normalize_resource_url('file:grammar.fcfg'))[1]) == \
     ... ('\\' if windows else '') + os.path.abspath(os.path.join(os.curdir, 'grammar.fcfg'))
@@ -198,7 +192,6 @@ def normalize_resource_name(resource_name, allow_relative=True, relative_path=No
         ``corpora/brown``.  Directory names will automatically
         be converted to a platform-appropriate path separator.
         Directory trailing slashes are preserved
-
     >>> windows = sys.platform.startswith('win')
     >>> normalize_resource_name('.', True)
     './'
@@ -255,7 +248,6 @@ class PathPointer(object):
         """
         Return a seekable read-only stream that can be used to read
         the contents of the file identified by this path pointer.
-
         :raise IOError: If the path specified by this pointer does
             not contain a readable file.
         """
@@ -265,7 +257,6 @@ class PathPointer(object):
         """
         Return the size of the file pointed to by this path pointer,
         in bytes.
-
         :raise IOError: If the path specified by this pointer does
             not contain a readable file.
         """
@@ -291,7 +282,6 @@ class FileSystemPathPointer(PathPointer, text_type):
     def __init__(self, _path):
         """
         Create a new path pointer for the given absolute path.
-
         :raise IOError: If the given path does not exist.
         """
 
@@ -336,9 +326,7 @@ class BufferedGzipFile(GzipFile):
     A ``GzipFile`` subclass that buffers calls to ``read()`` and ``write()``.
     This allows faster reads and writes of data to and from gzip-compressed
     files at the cost of using more memory.
-
     The default buffer size is 2MB.
-
     ``BufferedGzipFile`` is useful for loading large gzipped pickle objects
     as well as writing large encoded feature files for classifier training.
     """
@@ -350,7 +338,6 @@ class BufferedGzipFile(GzipFile):
                  fileobj=None, **kwargs):
         """
         Return a buffered gzip file object.
-
         :param filename: a filesystem path
         :type filename: str
         :param mode: a file mode which can be any of 'r', 'rb', 'a', 'ab',
@@ -456,7 +443,6 @@ class ZipFilePathPointer(PathPointer):
         """
         Create a new path pointer pointing at the specified entry
         in the given zipfile.
-
         :raise IOError: If the given zipfile does not exist, or if it
         does not contain the specified entry.
         """
@@ -542,16 +528,12 @@ def find(resource_name, paths=None):
     Returns a corresponding path name.  If the given resource is not
     found, raise a ``LookupError``, whose message gives a pointer to
     the installation instructions for the NLTK downloader.
-
     Zip File Handling:
-
       - If ``resource_name`` contains a component with a ``.zip``
         extension, then it is assumed to be a zipfile; and the
         remaining path components are used to look inside the zipfile.
-
       - If any element of ``nltk.data.path`` has a ``.zip`` extension,
         then it is assumed to be a zipfile.
-
       - If a given resource name that does not contain any zipfile
         component is not found initially, then ``find()`` will make a
         second attempt to find that resource, by replacing each
@@ -559,12 +541,10 @@ def find(resource_name, paths=None):
         allows ``find()`` to map the resource name
         ``corpora/chat80/cities.pl`` to a zip file path pointer to
         ``corpora/chat80.zip/chat80/cities.pl``.
-
       - When using ``find()`` to locate a directory contained in a
         zipfile, the resource name must end with the forward slash
         character.  Otherwise, ``find()`` will not locate the
         directory.
-
     :type resource_name: str or unicode
     :param resource_name: The name of the resource to search for.
         Resource names are posix-style relative path names, such as
@@ -641,7 +621,6 @@ def retrieve(resource_url, filename=None, verbose=True):
     Copy the given resource to a local file.  If no filename is
     specified, then use the URL's filename.  If there is already a
     file named ``filename``, then raise a ``ValueError``.
-
     :type resource_url: str
     :param resource_url: A URL specifying where the resource should be
         loaded from.  The default protocol is "nltk:", which searches
@@ -716,7 +695,6 @@ def load(resource_url, format='auto', cache=True, verbose=False,
     """
     Load a given resource from the NLTK data package.  The following
     resource formats are currently supported:
-
       - ``pickle``
       - ``json``
       - ``yaml``
@@ -728,16 +706,13 @@ def load(resource_url, format='auto', cache=True, verbose=False,
       - ``val`` (valuation of First Order Logic model)
       - ``text`` (the file contents as a unicode string)
       - ``raw`` (the raw file contents as a byte string)
-
     If no format is specified, ``load()`` will attempt to determine a
     format based on the resource name's file extension.  If that
     fails, ``load()`` will raise a ``ValueError`` exception.
-
     For all text formats (everything except ``pickle``, ``json``, ``yaml`` and ``raw``),
     it tries to decode the raw contents using UTF-8, and if that doesn't
     work, it tries with ISO-8859-1 (Latin-1), unless the ``encoding``
     is specified.
-
     :type resource_url: str
     :param resource_url: A URL specifying where the resource should be
         loaded from.  The default protocol is "nltk:", which searches
@@ -866,7 +841,6 @@ def load(resource_url, format='auto', cache=True, verbose=False,
 def show_cfg(resource_url, escape='##'):
     """
     Write out a grammar file, ignoring escaped and empty lines.
-
     :type resource_url: str
     :param resource_url: A URL specifying where the resource should be
         loaded from.  The default protocol is "nltk:", which searches
@@ -901,12 +875,12 @@ def _open(resource_url):
     its path, and open it with the given mode; if the resource URL
     uses the 'file' protocol, then open the file with the given mode;
     otherwise, delegate to ``urllib2.urlopen``.
-
     :type resource_url: str
     :param resource_url: A URL specifying where the resource should be
         loaded from.  The default protocol is "nltk:", which searches
         for the file in the the NLTK data package.
     """
+
     resource_url = normalize_resource_url(resource_url)
     protocol, path_ = split_resource_url(resource_url)
 
@@ -1005,11 +979,9 @@ class SeekableUnicodeStreamReader(object):
     ``seek()`` and ``tell()`` operations correctly.  This is in contrast
     to ``codecs.StreamReader``, which provide *broken* ``seek()`` and
     ``tell()`` methods.
-
     This class was motivated by ``StreamBackedCorpusView``, which
     makes extensive use of ``seek()`` and ``tell()``, and needs to be
     able to handle unicode-encoded files.
-
     Note: this class requires stateless decoders.  To my knowledge,
     this shouldn't cause a problem with any of python's builtin
     unicode encodings.
@@ -1077,7 +1049,6 @@ class SeekableUnicodeStreamReader(object):
         """
         Read up to ``size`` bytes, decode them using this reader's
         encoding, and return the resulting unicode string.
-
         :param size: The maximum number of bytes to read.  If not
             specified, then read as many bytes as possible.
         :type size: int
@@ -1097,7 +1068,6 @@ class SeekableUnicodeStreamReader(object):
         """
         Read a line of text, decode it using this reader's encoding,
         and return the resulting unicode string.
-
         :param size: The maximum number of bytes to read.  If no
             newline is encountered before ``size`` bytes have been read,
             then the returned value may not be a complete line of text.
@@ -1158,7 +1128,6 @@ class SeekableUnicodeStreamReader(object):
         """
         Read this file's contents, decode them using this reader's
         encoding, and return it as a list of unicode lines.
-
         :rtype: list(unicode)
         :param sizehint: Ignored.
         :param keepends: If false, then strip newlines.
@@ -1217,7 +1186,6 @@ class SeekableUnicodeStreamReader(object):
         """
         Move the stream to a new file position.  If the reader is
         maintaining any buffers, then they will be cleared.
-
         :param offset: A byte count offset.
         :param whence: If 0, then the offset is from the start of the file
             (offset should be positive), if 1, then the offset is from the
@@ -1250,7 +1218,6 @@ class SeekableUnicodeStreamReader(object):
         """
         Move the file position forward by ``offset`` characters,
         ignoring all buffers.
-
         :param est_bytes: A hint, giving an estimate of the number of
             bytes that will be neded to move forward by ``offset`` chars.
             Defaults to ``offset``.
@@ -1377,7 +1344,6 @@ class SeekableUnicodeStreamReader(object):
         appears to be caused by a truncation error, then just decode
         the byte string without the bytes that cause the trunctaion
         error.
-
         Return a tuple ``(chars, num_consumed)``, where ``chars`` is
         the decoded unicode string, and ``num_consumed`` is the
         number of bytes that were consumed.

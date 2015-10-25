@@ -110,7 +110,7 @@ if not hasattr(subprocess, 'Popen'):
 ###########################################################
 
 # Import top-level functionality into top-level namespace
-
+import copy_reg
 from nltk.collocations import *
 from nltk.decorators import decorator, memoize
 from nltk.featstruct import *

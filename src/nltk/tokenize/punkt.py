@@ -107,6 +107,7 @@ from __future__ import print_function, unicode_literals
 
 import re
 import math
+import copy_reg
 from collections import defaultdict
 
 from nltk.compat import unicode_repr, python_2_unicode_compatible, string_types

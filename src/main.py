@@ -2,8 +2,10 @@ import sys
 import math
 import string
 import overlap
-import NamedEntityRecognizer
-import Classifier
+import HandCraftedNER
+
+# use dictionary for holding names so we can index
+_properNames = {}
 def main():
 
     global textList
@@ -11,23 +13,26 @@ def main():
 
     global questionList
     questionList = []
-    ner = NamedEntityRecognizer.NamedEntityRecognizer()
-    textFile = open('textLonger.txt','r')
+
+
+    textFile = open('text.txt','r')
     textList = formatFileToList(textFile)
     textFile.close()
 
-    questionFile = open('longerQuestions.txt','r')
+    textFile = open('text.txt','r')
+    NERGraph = generateNamedEntitiesGraph(textFile)
+    textFile.close()
+
+
+
+    questionFile = open('questions.txt','r')
     questionList = formatFileToList(questionFile)
     questionFile.close()
 
     for q in questionList:
         print ("\nQuestion: " + q)
-
-        classifierResult = Classifier.Classifier(q)
-        print("Response category: " +  classifierResult.responseCategory)
-        print("Response subcategory: " + classifierResult.responseSubcategory)
         print ("Best overlap sentence: " + overlap.bestOverlapCount(q, textList))
-        
+
 def formatFileToList(file):
     fileList = []
     for line in file:
@@ -40,8 +45,31 @@ def formatFileToList(file):
 
     return fileList
 
+def generateNamedEntitiesGraph( file):
+    lineDict = {}
+    #build the name dictionary
+    nameFile = open('names.txt', 'r')
+    for line in nameFile:
+        tokens = line.split()
+        _properNames[tokens[0].lower()] = 1
+
+    for line in file:
+        # remove line breaks
+        cleaned = str(line).rstrip('\r\n')
+
+        #remove punctuation
+        formattedLine = "".join(c for c in cleaned if c not in string.punctuation)
+
+
+        ner = HandCraftedNER.NER(formattedLine, _properNames)
+        ner.printArrays()
+
+        lowered = cleaned.lower()
+
+
+    return lineDict
+
 main()
-    
-        
+
 
 
