@@ -6,7 +6,8 @@ class NER:
 
     stopWords = ['a','an','the','are','as','at','be','by','far','from'
                 'has','he','in','is','it','its','on','that','the',
-                'to','was','were','will','with', 'when', 'may']
+                'to','was','were','will','with', 'when', 'may', 'some', 'more', 'residents', 'students',
+                 'faculty', 'scientists', 'researchers', 'proceeds']
 
     timeReferences = ['january','february','march','april','may','june','july','august','september','october'
             'november','december','jan','feb','march','apr', 'aug', 'sept', 'oct', 'nov', 'dec', 'today', 'yesterday',
@@ -36,26 +37,36 @@ class NER:
             '2020','2021','2022','2023','2024','2025','2026','2027','2028','2029','2030']
 
     locationReferences = ['island', 'mountain', 'mount', 'sound', 'river', 'gulf', 'stream', 'lake', 'ocean', 'sea',
-                          'forest', 'pond', 'alabama', 'alaska', 'arizona', 'arkansas', 'california', 'colorado',
+                          'forest', 'pond',  'continent', 'isthmus', 'southwest', 'southeast', 'northeast', 'northwest',
+                          'northwestern', 'northeastern', 'southwestern', 'southeastern'
+                          'africa', 'antarctica', 'brazil', 'europe', 'european', 'african', 'russia', 'asia', 'asian', 'china',
+                          'chinese', 'middle', 'south', 'north', 'east', 'south', 'west', 'england', 'office', 'building', 'home',
+                          'residence', 'center', 'beach', 'hotel', 'restaurant', 'palace', 'cathedral', 'mine', 'cave',
+                          'factory', 'plaza', 'mexico', 'canada', 'mexican', 'canadian', 'st', 'school'
+                          'arctic', 'antarctic', 'subarctic', 'tropics', 'straights', 'hills', 'plains', 'basin', 'plymouth',
+                          ]
+    locationSpecific = ['airdrie', 'brooks', 'camrose', 'chestermere', 'edmonton', 'fort saskatchewan', 'lacombe', 'leduc',
+                        'lethbridge', 'lloydminster', 'medicine', 'hat', 'deer', 'albert', 'fort', 'grand', 'rapids',
+                        'duncan', 'langley', 'maple', 'westminster', 'parksville', 'vancouver', 'alabama', 'alaska', 'arizona', 'arkansas', 'california', 'colorado',
                           'connecticut', 'delaware', 'florida', 'georgia', 'hawaii', 'idaho', 'illinois', 'indiana',
                           'iowa', 'kansas', 'kentucky', 'maine', 'maryland', 'massachusetts', 'ma', 'michigan', 'mississippi',
                           'ms', 'missouri', 'montana', 'nebraska', 'nevada', 'hampshire', 'jersey', 'mexico', 'york', 'carolina',
                           'dakota', 'ohio', 'pennsylvania', 'pa', 'ri', 'rhode', 'carolina', 'america', 'tennessee', 'tn', 'utah'
-                          'UT', 'vermont', 'virgina', 'wisconsin', 'washington', 'dc', 'wyoming', 'wy', 'continent', 'isthmus',
-                          'africa', 'antarctica', 'brazil', 'europe', 'european', 'african', 'russia', 'asia', 'asian', 'china',
-                          'chinese', 'middle', 'south', 'north', 'east', 'south', 'west', 'england', 'office', 'building', 'home',
-                          'residence', 'center', 'beach', 'hotel', 'restaurant', 'palace', 'cathedral', 'mine', 'cave',
-                          'factory', 'plaza', 'mexico', 'canada', 'mexican', 'canadian', 'calgary', 'toronto', 'alberta',
+                          'ut', 'vermont', 'virgina', 'wisconsin', 'washington', 'dc', 'wyoming', 'wy',
+                        'calgary', 'toronto', 'alberta', 'nova', 'scotia',
                           'yukon', 'columbia', 'british', 'manitoba', 'ontario', 'quebec', 'nova', 'new', 'toronto', 'of',
-                          'angeles', 'la', 'denver', 'phoenix', 'houston', 'dallas', 'vegas', 'chicago', 'miami', 'detroit',
-                          'arctic', 'antarctic', 'subarctic', 'tropics', 'straights', 'hills', 'plains', 'basin']
+                          'angeles', 'la', 'denver', 'phoenix', 'houston', 'dallas', 'vegas', 'chicago', 'miami', 'detroit']
 
     groupReferences = ['co', 'corporation', 'llc', 'org', 'brothers', 'partners', 'sisters', 'association', 'organization',
                        'committee', 'assembly', 'consortium', 'google', 'congress', 'government', 'walmart', 'exxon',
-                       'chevron', 'berkshire', 'apple', 'motors', 'foundation', 'center', 'group']
+                       'chevron', 'berkshire', 'apple', 'motors', 'foundation', 'center', 'group', 'school', 'board',
+                       'directors', 'followers', 'church', 'ambassadors', 'research', 'centre', 'players', 'lions',
+                       'bears', 'eagles', 'panthers', 'cowboys', 'wolves', 'bears', 'football', 'basketball', 'team']
 
     namesGraph = {}
     timesGraph = {}
+
+    nameDictionary = {}
     def __init__(self, sentence, nameDictionary):
 
        self.timeArray = []
@@ -67,10 +78,11 @@ class NER:
        self.sentence = sentence
        self.tokens = sentence.split()
 
+       self.nameDictionary = nameDictionary
        # build the named entity graphs
        self.parseCapitals(self.tokens, 0, 0)
        self.parseTimes(self.tokens, 0, 0)
-       self.nameDictionary = nameDictionary
+
 
        #proper names can be classified as one of the following: 'PERSON', 'GROUP', 'PERSONORGROUP' 'LOCATION'
        self.personArray = []
@@ -86,46 +98,52 @@ class NER:
            groupScore = 0
            personOrGroupScore = 0
            locationScore = 0
-           temp = ""
-           for token in val:
-            l = token.lower()
-            if nameDictionary.has_key(l):
-                personScore +=1
-            if l in self.stopWords or l == "of":
-                personScore -=1
 
-            if l in self.locationReferences:
-                personScore -=1
+           outputStr = ""
+           for v in val:
 
-            if l in self.groupReferences:
-                groupScore +=1
-            if l in self.locationReferences:
-                locationScore +=1
+                outputStr += v + " "
+                if(self.nameDictionary.has_key(v.lower())):
+                   if( v.lower() not in self.stopWords):
+                        print(v + " apparently in names dictionary")
+                        personScore +=1
+                        personOrGroupScore +=1
+
+                if(v.lower() in self.locationReferences):
+                    locationScore+= 1
+
+                if(v.lower() in self.locationSpecific):
+                    locationScore+= 1
+
+                if(v.lower() in self.groupReferences):
+                    groupScore +=1
+                    personOrGroupScore +=1
+
+                    personScore -=1
 
 
-            temp = temp + (token + ' ')
+           outputStr = outputStr.strip()
+
+           if personScore > 0:
+               self.personArray.append(outputStr)
+           if  groupScore > 0:
+               self.groupArray.append(outputStr)
+           if personOrGroupScore > 0:
+               self.personOrGroupArray.append(outputStr)
+           if  locationScore > 0:
+               self.locationArray.append(outputStr)
 
 
-           if personScore >= 1:
-            self.personArray.append(temp.strip())
 
-           if groupScore >= 1:
-            self.groupArray.append(temp.strip())
-
-           if locationScore >=1:
-               self.locationArray.append(temp.strip())
-
-           if personScore is 0 and groupScore is 0:
-               self.personOrGroupArray.append(temp.strip())
 
 
          #output to times array
        for key in self.timesGraph:
             val = self.timesGraph[key]
             temp = ""
+
             for token in val:
-                l = token.lower()
-                temp += l + ' '
+                temp += token + ' '
 
             temp = temp.strip()
 
@@ -136,34 +154,52 @@ class NER:
 
     # we will assume that sequences of capitalized letters are names
     def parseCapitals(self, tokens, tokenIndex, graphIndex):
+
+        #if it's a valid index
         if(tokenIndex < len(tokens)  and tokenIndex > -1):
-            if(tokenIndex is not 0 and tokens[tokenIndex].lower() not in self.stopWords):
+
+            #if the token isn't in the stop words list
+            if(tokens[tokenIndex].lower() not in self.stopWords):
+
                 #check if the token contains an uppercase
                 if(any (x.isupper() for x in tokens[tokenIndex])):
+                    #add the token to names graph
                     if self.namesGraph.has_key(graphIndex) is False :
                         self.namesGraph[graphIndex] = []
-                    #special case 'of'
-                    if(tokenIndex + 1 < len(tokens)):
-                        what = tokens[tokenIndex + 1]
-                        if(tokens[tokenIndex +1] == "of"):
+
+                    self.namesGraph[graphIndex].append(tokens[tokenIndex])
+                    self.parseCapitals(tokens, tokenIndex + 1, graphIndex)
+
+
+                else: #no uppercase tokens, check special cases
+
+
+
+                     #special case 'Bay of Pigs' (location)
+                    if tokenIndex - 1 >= 0 and tokens[tokenIndex -1][0].isupper():
+
+                        if(tokens[tokenIndex] == 'of'):
+
+                            if self.namesGraph.has_key(graphIndex) is False :
+                                self.namesGraph[graphIndex] = []
                             self.namesGraph[graphIndex].append(tokens[tokenIndex])
-                            self.namesGraph[graphIndex].append("of")
-                            self.parseCapitals(tokens, tokenIndex + 2, graphIndex)
-                        else:
-                             self.namesGraph[graphIndex].append(tokens[tokenIndex])
-                             self.parseCapitals(tokens, tokenIndex + 1, graphIndex)
-                    else:
+                            self.parseCapitals(tokens, tokenIndex + 1, graphIndex)
+
+
+                    elif(self.nameDictionary.has_key(tokens[tokenIndex])):
+                        if self.namesGraph.has_key(graphIndex) is False :
+                            self.namesGraph[graphIndex] = []
+
                         self.namesGraph[graphIndex].append(tokens[tokenIndex])
-                        self.parseCapitals(tokens, tokenIndex + 1, graphIndex)
+                        self.parseCapitals(tokens, tokenIndex +1, graphIndex)
 
+                        #no more components in this named entity, move on
+                    else:
+                        self.parseCapitals(tokens, tokenIndex +1, graphIndex+1)
 
-                else:
-                    self.parseCapitals(tokens, tokenIndex +1, graphIndex+1)
-            else:
-                self.parseCapitals(tokens, tokenIndex +1, graphIndex+1)
-        else:
-            x = 32
-            #handle special cases here (where the name is the first word of the sentence)
+            else: #we've hit a stop word, move on
+                self.parseCapitals(tokens, tokenIndex +1, graphIndex +1)
+
 
 
     # look for time related words

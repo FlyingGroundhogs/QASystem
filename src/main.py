@@ -29,9 +29,9 @@ def main():
     questionList = formatFileToList(questionFile)
     questionFile.close()
 
-    for q in questionList:
-        print ("\nQuestion: " + q)
-        print ("Best overlap sentence: " + overlap.bestOverlapCount(q, textList))
+    #for q in questionList:
+        #print ("\nQuestion: " + q)
+        #print ("Best overlap sentence: " + overlap.bestOverlapCount(q, textList))
 
 def formatFileToList(file):
     fileList = []
@@ -53,18 +53,17 @@ def generateNamedEntitiesGraph( file):
         tokens = line.split()
         _properNames[tokens[0].lower()] = 1
 
+    fileString = ""
     for line in file:
-        # remove line breaks
-        cleaned = str(line).rstrip('\r\n')
 
-        #remove punctuation
-        formattedLine = "".join(c for c in cleaned if c not in string.punctuation)
+        line = line.translate(None, ',')
+        fileString += line
 
+    sentences = fileString.split('.')
 
-        ner = HandCraftedNER.NER(formattedLine, _properNames)
+    for sentence in sentences:
+        ner = HandCraftedNER.NER(sentence, _properNames)
         ner.printArrays()
-
-        lowered = cleaned.lower()
 
 
     return lineDict
