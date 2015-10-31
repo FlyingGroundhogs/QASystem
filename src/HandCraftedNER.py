@@ -13,7 +13,12 @@ class NER:
             'november','december','jan','feb','march','apr', 'aug', 'sept', 'oct', 'nov', 'dec', 'today', 'yesterday',
             'o\'clock', 'oclock', 'afternoon', 'evening', 'morning', 'daytime', 'monday', 'tuesday', 'wednesday', 'thursday',
             'friday', 'saturday', 'sunday', 'mon', 'tues', 'wed', 'thurs', 'fri', 'sat', 'sun', 'dawn', 'dusk', 'summer',
-            'winter', 'autumn', 'summertime',
+            'winter', 'autumn', 'summertime', '1', '2', '3', '4', '5','6', '7', '8' '9', '10', '11', '12', '13',
+            '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31',
+            '1st', '2nd', '3rd', '4th', '5th','6th', '7th', '8th' '9th', '10th', '11th', '12th', '13th',
+            '14th', '15th', '16th', '17th', '18th', '19th', '20th', '21st', '22nd', '23rd', '24th', '25th', '26th', '27th',
+            '28th', '29th', '30th', '31st', 'christmas', 'thanskgiving', 'halloween', 'valentines', 'easter', 'ash' '1960s',
+            '1920s', '1900s', '1970s', '1980s', '1990s', '1800s', '1700s', 'century'
             '1700','1701','1702','1703','1704','1705','1706','1707','1708','1709','1710','1711','1712','1713','1714','1715',
             '1716','1717','1718','1719','1720','1721','1722','1723','1724','1725','1726','1727','1728','1729','1730','1731',
             '1732','1733','1734','1735','1736','1737','1738','1739','1740','1741','1742','1743','1744','1745','1746','1747',
@@ -38,14 +43,15 @@ class NER:
 
     locationReferences = ['island', 'mountain', 'mount', 'sound', 'river', 'gulf', 'stream', 'lake', 'ocean', 'sea',
                           'forest', 'pond',  'continent', 'isthmus', 'southwest', 'southeast', 'northeast', 'northwest',
-                          'northwestern', 'northeastern', 'southwestern', 'southeastern'
+                          'northwestern', 'northeastern', 'southwestern', 'southeastern', 'centre', 'center'
                           'africa', 'antarctica', 'brazil', 'europe', 'european', 'african', 'russia', 'asia', 'asian', 'china',
                           'chinese', 'middle', 'south', 'north', 'east', 'south', 'west', 'england', 'office', 'building', 'home',
                           'residence', 'center', 'beach', 'hotel', 'restaurant', 'palace', 'cathedral', 'mine', 'cave',
                           'factory', 'plaza', 'mexico', 'canada', 'mexican', 'canadian', 'st', 'school'
                           'arctic', 'antarctic', 'subarctic', 'tropics', 'straights', 'hills', 'plains', 'basin', 'plymouth',
+                          'commonwealth'
                           ]
-    locationSpecific = ['airdrie', 'brooks', 'camrose', 'chestermere', 'edmonton', 'fort saskatchewan', 'lacombe', 'leduc',
+    locationSpecific = ['airdrie', 'brooks', 'camrose', 'chestermere', 'edmonton', 'saskatchewan', 'lacombe', 'leduc',
                         'lethbridge', 'lloydminster', 'medicine', 'hat', 'deer', 'albert', 'fort', 'grand', 'rapids',
                         'duncan', 'langley', 'maple', 'westminster', 'parksville', 'vancouver', 'alabama', 'alaska', 'arizona', 'arkansas', 'california', 'colorado',
                           'connecticut', 'delaware', 'florida', 'georgia', 'hawaii', 'idaho', 'illinois', 'indiana',
@@ -53,15 +59,28 @@ class NER:
                           'ms', 'missouri', 'montana', 'nebraska', 'nevada', 'hampshire', 'jersey', 'mexico', 'york', 'carolina',
                           'dakota', 'ohio', 'pennsylvania', 'pa', 'ri', 'rhode', 'carolina', 'america', 'tennessee', 'tn', 'utah'
                           'ut', 'vermont', 'virgina', 'wisconsin', 'washington', 'dc', 'wyoming', 'wy',
-                        'calgary', 'toronto', 'alberta', 'nova', 'scotia',
+                        'calgary', 'toronto', 'alberta', 'nova', 'scotia', 'france', 'paris', 'london', 'barcelona',
                           'yukon', 'columbia', 'british', 'manitoba', 'ontario', 'quebec', 'nova', 'new', 'toronto', 'of',
-                          'angeles', 'la', 'denver', 'phoenix', 'houston', 'dallas', 'vegas', 'chicago', 'miami', 'detroit']
+                          'angeles', 'la', 'denver', 'phoenix', 'houston', 'dallas', 'vegas', 'chicago', 'miami', 'detroit', 'wiarton',
+                         'newfoundland'
+                        'united', 'states']
 
     groupReferences = ['co', 'corporation', 'llc', 'org', 'brothers', 'partners', 'sisters', 'association', 'organization',
                        'committee', 'assembly', 'consortium', 'google', 'congress', 'government', 'walmart', 'exxon',
-                       'chevron', 'berkshire', 'apple', 'motors', 'foundation', 'center', 'group', 'school', 'board',
+                       'chevron', 'berkshire', 'apple', 'motors', 'foundation', 'center', 'school', 'board',
                        'directors', 'followers', 'church', 'ambassadors', 'research', 'centre', 'players', 'lions',
-                       'bears', 'eagles', 'panthers', 'cowboys', 'wolves', 'bears', 'football', 'basketball', 'team']
+                       'bears', 'eagles', 'panthers', 'cowboys', 'wolves', 'bears', 'football', 'basketball', 'team',
+                       'governments', 'committees', 'organizations', 'commission', 'oilers', 'yankees', 'sox', 'cardinals',
+                       'bruins', 'trojans', 'canadians', 'wings', 'sabres', 'ducks', 'stars', 'panthers', 'devils',
+                       'avalanche', 'flyers', 'leafs', 'jets', 'blues', 'capitals', 'senators', 'student', 'worker',
+                       'workers', 'union', 'post', 'inquirer', 'herald', 'network', 'times', 'daily', 'journal', 'press',
+                       'tribune', 'star', 'sun', 'gazette', 'review', 'weekly', 'agency', 'national', 'administration', 'americans',
+                       'canadians', 'republicans', 'democrats', 'republican', 'democratic', 'order']
+
+    eventReferences = ['world', 'event', 'war', 'migration', 'battle', 'celebration', 'christmas', 'easter', 'halloween',
+                       'independence', 'festival', 'harvest', 'superbowl', 'championship', 'derby', 'race', 'exposition',
+                       'expo', 'fair', 'award', 'ceremony', 'awards', 'pride', 'rodeo', 'day','great', 'explosion', 'incursion',
+                        'extinction', 'starvation', 'invasion', 'blockade', 'shortage', 'flood', 'tragedy']
 
     namesGraph = {}
     timesGraph = {}
@@ -89,7 +108,7 @@ class NER:
        self.groupArray = []
        self.locationArray = []
        self.personOrGroupArray = []
-
+       self.eventArray = []
        #append these names to appropriate array(s)
        for  key in self.namesGraph:
            val = self.namesGraph[key]
@@ -98,14 +117,14 @@ class NER:
            groupScore = 0
            personOrGroupScore = 0
            locationScore = 0
-
+           eventScore = 0
            outputStr = ""
            for v in val:
 
                 outputStr += v + " "
                 if(self.nameDictionary.has_key(v.lower())):
                    if( v.lower() not in self.stopWords):
-                        print(v + " apparently in names dictionary")
+
                         personScore +=1
                         personOrGroupScore +=1
 
@@ -114,25 +133,41 @@ class NER:
 
                 if(v.lower() in self.locationSpecific):
                     locationScore+= 1
+                    personScore -=1
+                    personOrGroupScore -=1
 
                 if(v.lower() in self.groupReferences):
                     groupScore +=1
                     personOrGroupScore +=1
 
-                    personScore -=1
+                    personScore -=2
+                if(v.lower() in self.eventReferences):
+                    personScore -=2
+                    eventScore +=1
+                    personOrGroupScore -=1
+
+
+
+
 
 
            outputStr = outputStr.strip()
 
            if personScore > 0:
-               self.personArray.append(outputStr)
+               if outputStr not in self.personArray:
+                self.personArray.append(outputStr)
            if  groupScore > 0:
-               self.groupArray.append(outputStr)
+               if outputStr not in self.groupArray:
+                self.groupArray.append(outputStr)
            if personOrGroupScore > 0:
-               self.personOrGroupArray.append(outputStr)
+               if outputStr not in self.personOrGroupArray:
+                self.personOrGroupArray.append(outputStr)
            if  locationScore > 0:
-               self.locationArray.append(outputStr)
-
+               if outputStr not in self.locationArray:
+                self.locationArray.append(outputStr)
+           if  eventScore > 0:
+               if outputStr not in self.eventArray:
+                self.eventArray.append(outputStr)
 
 
 
@@ -147,7 +182,8 @@ class NER:
 
             temp = temp.strip()
 
-            self.timeArray.append(temp)
+            if(temp not in self.timeArray):
+                self.timeArray.append(temp)
 
 
 
@@ -173,12 +209,10 @@ class NER:
 
                 else: #no uppercase tokens, check special cases
 
-
-
                      #special case 'Bay of Pigs' (location)
                     if tokenIndex - 1 >= 0 and tokens[tokenIndex -1][0].isupper():
 
-                        if(tokens[tokenIndex] == 'of'):
+                        if(tokens[tokenIndex] == 'of' or tokens[tokenIndex] in self.groupReferences):
 
                             if self.namesGraph.has_key(graphIndex) is False :
                                 self.namesGraph[graphIndex] = []
@@ -186,7 +220,7 @@ class NER:
                             self.parseCapitals(tokens, tokenIndex + 1, graphIndex)
 
 
-                    elif(self.nameDictionary.has_key(tokens[tokenIndex])):
+                    if(self.nameDictionary.has_key(tokens[tokenIndex])):
                         if self.namesGraph.has_key(graphIndex) is False :
                             self.namesGraph[graphIndex] = []
 
@@ -194,11 +228,11 @@ class NER:
                         self.parseCapitals(tokens, tokenIndex +1, graphIndex)
 
                         #no more components in this named entity, move on
-                    else:
-                        self.parseCapitals(tokens, tokenIndex +1, graphIndex+1)
+
+                    self.parseCapitals(tokens, tokenIndex +1, graphIndex+1)
 
             else: #we've hit a stop word, move on
-                self.parseCapitals(tokens, tokenIndex +1, graphIndex +1)
+                self.parseCapitals(tokens, tokenIndex +1, graphIndex +1 )
 
 
 
@@ -219,31 +253,43 @@ class NER:
 
 
     def printArrays(self):
-        print ("HandCrafted NER results for: \"" + self.sentence + "\"")
+        print ("NAMED ENTITIES IN THIS SENTENCE:")
 
-        print "PERSON:"
-        for item in self.personArray:
-            print '[' + item + '] ',
+        if(len(self.personArray) > 0):
+            print "PERSON:"
+            for item in self.personArray:
+                print '[' + item + '] ',
 
-        print '\n'
-        print "GROUP:"
-        for item in self.groupArray:
-             print '[' + item + '] ',
+        if(len(self.groupArray) > 0):
+            print '\n'
+            print "GROUP:"
+            for item in self.groupArray:
+                 print '[' + item + '] ',
 
-        print '\n'
-        print "PERSONORGROUP:"
-        for item in self.personOrGroupArray:
-             print '[' + item + '] ',
+        if(len(self.personOrGroupArray) > 0):
+            print '\n'
+            print "PERSONORGROUP:"
+            for item in self.personOrGroupArray:
+                 print '[' + item + '] ',
 
-        print '\n'
-        print "LOCATION:"
-        for item in self.locationArray:
-            print '[' + item + '] ',
+        if(len(self.locationArray) > 0):
 
-        print '\n'
-        print "TIME"
-        for item in self.timeArray:
-            print '[' + item + '] '
+            print '\n'
+            print "LOCATION:"
+            for item in self.locationArray:
+                print '[' + item + '] ',
+
+        if(len(self.eventArray) > 0):
+            print '\n'
+            print "EVENT:"
+            for item in self.eventArray:
+                print '[' + item + '] '
+
+        if(len(self.timeArray) > 0):
+            print '\n'
+            print "TIME:"
+            for item in self.timeArray:
+                print '[' + item + '] '
 
         print
         print '*****************************************************************\n'
