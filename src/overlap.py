@@ -2,7 +2,11 @@ global stopWords
 
 stopWords = ['a','an','the','are','as','at','be','by','far','from'
             'has','he','in','is','it','its','of','on','that','the',
-             'to','was','were','will','with']
+            'to','was','were','will','with' 'a','an','the','are','as','at','be','by','far','from'
+            'has','he','in','is','it','its','on','that','the',
+            'to','was','were','will','with', 'when', 'may', 'some', 'more', 'residents', 'students',
+            'faculty', 'scientists', 'researchers', 'proceeds']
+
 
 def bestOverlapCount(question, sentences):
     bestCount = 0
@@ -14,7 +18,7 @@ def bestOverlapCount(question, sentences):
             bestCount = currentCount
             bestSentence = sentence
 
-    print ("Best overlap count: %d" % bestCount)
+    #print ("Best overlap count: %d" % bestCount)
     return bestSentence
         
 

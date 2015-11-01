@@ -122,7 +122,7 @@ class NER:
            for v in val:
 
                 outputStr += v + " "
-                if(self.nameDictionary.has_key(v.lower())):
+                if v.lower() in self.nameDictionary:
                    if( v.lower() not in self.stopWords):
 
                         personScore +=1
@@ -195,12 +195,12 @@ class NER:
         if(tokenIndex < len(tokens)  and tokenIndex > -1):
 
             #if the token isn't in the stop words list
-            if(tokens[tokenIndex].lower() not in self.stopWords):
+            if tokens[tokenIndex].lower() not in self.stopWords:
 
                 #check if the token contains an uppercase
                 if(any (x.isupper() for x in tokens[tokenIndex])):
                     #add the token to names graph
-                    if self.namesGraph.has_key(graphIndex) is False :
+                    if graphIndex not in self.namesGraph:
                         self.namesGraph[graphIndex] = []
 
                     self.namesGraph[graphIndex].append(tokens[tokenIndex])
@@ -214,14 +214,14 @@ class NER:
 
                         if(tokens[tokenIndex] == 'of' or tokens[tokenIndex] in self.groupReferences):
 
-                            if self.namesGraph.has_key(graphIndex) is False :
+                            if graphIndex not in self.namesGraph:
                                 self.namesGraph[graphIndex] = []
                             self.namesGraph[graphIndex].append(tokens[tokenIndex])
                             self.parseCapitals(tokens, tokenIndex + 1, graphIndex)
 
 
-                    if(self.nameDictionary.has_key(tokens[tokenIndex])):
-                        if self.namesGraph.has_key(graphIndex) is False :
+                    if tokens[tokenIndex] in self.nameDictionary:
+                        if graphIndex not in self.namesGraph:
                             self.namesGraph[graphIndex] = []
 
                         self.namesGraph[graphIndex].append(tokens[tokenIndex])
@@ -238,11 +238,11 @@ class NER:
 
     # look for time related words
     def parseTimes(self, tokens, tokenIndex, graphIndex):
-        if(tokenIndex < len(tokens)  and tokenIndex > -1):
-            if(tokenIndex is not 0 or tokens[tokenIndex] in  self.timeReferences):
+        if(tokenIndex < len(tokens) and tokenIndex > -1):
+            if(tokenIndex is not 0 or tokens[tokenIndex] in self.timeReferences):
                 #check if the token is time related
                 if (tokens[tokenIndex].lower() in self.timeReferences):
-                    if self.timesGraph.has_key(graphIndex) is False :
+                    if graphIndex not in self.timesGraph:
                         self.timesGraph[graphIndex] = []
                     self.timesGraph[graphIndex].append(tokens[tokenIndex])
                     self.parseTimes(tokens, tokenIndex + 1, graphIndex)
@@ -256,40 +256,39 @@ class NER:
         print ("NAMED ENTITIES IN THIS SENTENCE:")
 
         if(len(self.personArray) > 0):
-            print "PERSON:"
+            print ("PERSON:")
             for item in self.personArray:
-                print '[' + item + '] ',
+                print ('[' + item + '] ')
 
         if(len(self.groupArray) > 0):
-            print '\n'
-            print "GROUP:"
+            print ('\n')
+            print ("GROUP:")
             for item in self.groupArray:
-                 print '[' + item + '] ',
+                 print ('[' + item + '] ')
 
         if(len(self.personOrGroupArray) > 0):
-            print '\n'
-            print "PERSONORGROUP:"
+            print ('\n')
+            print ("PERSONORGROUP:")
             for item in self.personOrGroupArray:
-                 print '[' + item + '] ',
+                 print ('[' + item + ']')
 
         if(len(self.locationArray) > 0):
 
-            print '\n'
-            print "LOCATION:"
+            print ('\n')
+            print ("LOCATION:")
             for item in self.locationArray:
-                print '[' + item + '] ',
+                print ('[' + item + '] ')
 
         if(len(self.eventArray) > 0):
-            print '\n'
-            print "EVENT:"
+            print ('\n')
+            print ("EVENT:")
             for item in self.eventArray:
-                print '[' + item + '] '
+                print ('[' + item + ']')
 
         if(len(self.timeArray) > 0):
-            print '\n'
-            print "TIME:"
+            print ('\n')
+            print ("TIME:")
             for item in self.timeArray:
-                print '[' + item + '] '
+                print ('[' + item + '] ')
 
-        print
-        print '*****************************************************************\n'
+        print ('*****************************************************************\n')
