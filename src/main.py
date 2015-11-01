@@ -3,6 +3,9 @@ import math
 import string
 import overlap
 import os.path
+import HandCraftedNER
+import Classifier
+_properNames = {}
 
 def main():
 
@@ -46,7 +49,7 @@ def main():
                 qArray.append(l)
 
         for q in range(0, len(qArray), 3):
-            qID = qArray[0]
+            qID = qArray[q]
             question = formatQuestion(qArray[q+1])
             print (qID)
             print (question)
@@ -54,7 +57,28 @@ def main():
 
         storyFile.close()
         qFile.close()
-        
+
+        print ("CLASSIFIER: TYPE OF RESPONSE: ")
+        cl = Classifier.Classifier(question)
+
+        print (cl.responseCategory)
+        if(cl.responseCategory is not None):
+            print (": "+ cl.responseSubcategory)
+
+
+        bestOverlap = overlap.bestOverlapCount(question, sentenceArray)
+        print ("Best overlap sentence: " + bestOverlap)
+        #send names into memory for efficiency
+        readInProperNames()
+        ner = HandCraftedNER.NER(bestOverlap, _properNames)
+        ner.printArrays()
+
+
+
+
+        storyFile.close()
+        qFile.close()
+
 def formatFileToList(file, delimiter):
     formattedList = []
 
@@ -67,7 +91,7 @@ def formatFileToList(file, delimiter):
 
     for line in sentenceList:
         #change to lowercase, remove line breaks, strip trailing whitespace
-        toLower = str.lower(line).replace('\n',' ').strip()
+        toLower = (line).replace('\n',' ').strip()
 
         #remove punctuation
         formattedLine = "".join(c for c in toLower if c not in string.punctuation)
@@ -90,8 +114,24 @@ def formatQuestion(line):
 
     return formattedLine
 
+
+def readInProperNames( ):
+
+    #build the name dictionary
+    nameFile = open('names.txt', 'r')
+    for line in nameFile:
+        tokens = line.split()
+        _properNames[tokens[0].lower()] = 1
+
 main()
-    
-        
+
+
+
+
+
+
+
+
+
 
 
