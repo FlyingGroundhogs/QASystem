@@ -2,8 +2,585 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d4d0fb8d-0df7-446e-adac-09f5c9b27cae" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\longerQuestions.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\textLonger.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\chunkers\maxent_ne_chunker.zip" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\chunkers\maxent_ne_chunker\PY3\english_ace_binary.pickle" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\chunkers\maxent_ne_chunker\PY3\english_ace_multiclass.pickle" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\chunkers\maxent_ne_chunker\english_ace_binary.pickle" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\chunkers\maxent_ne_chunker\english_ace_multiclass.pickle" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\CONTENTS" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\README" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca01" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca02" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca03" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca04" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca05" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca06" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca07" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca08" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca09" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca10" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca11" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca12" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca13" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca14" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca15" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca16" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca17" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca18" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca19" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca20" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca21" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca22" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca23" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca24" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca25" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca26" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca27" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca28" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca29" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca30" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca31" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca32" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca33" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca34" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca35" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca36" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca37" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca38" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca39" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca40" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca41" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca42" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca43" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ca44" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cats.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cb01" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cb02" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cb03" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cb04" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cb05" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cb06" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cb07" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cb08" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cb09" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cb10" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cb11" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cb12" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cb13" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cb14" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cb15" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cb16" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cb17" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cb18" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cb19" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cb20" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cb21" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cb22" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cb23" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cb24" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cb25" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cb26" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cb27" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cc01" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cc02" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cc03" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cc04" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cc05" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cc06" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cc07" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cc08" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cc09" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cc10" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cc11" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cc12" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cc13" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cc14" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cc15" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cc16" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cc17" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cd01" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cd02" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cd03" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cd04" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cd05" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cd06" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cd07" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cd08" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cd09" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cd10" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cd11" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cd12" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cd13" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cd14" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cd15" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cd16" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cd17" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ce01" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ce02" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ce03" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ce04" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ce05" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ce06" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ce07" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ce08" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ce09" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ce10" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ce11" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ce12" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ce13" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ce14" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ce15" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ce16" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ce17" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ce18" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ce19" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ce20" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ce21" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ce22" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ce23" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ce24" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ce25" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ce26" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ce27" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ce28" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ce29" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ce30" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ce31" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ce32" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ce33" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ce34" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ce35" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ce36" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf01" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf02" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf03" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf04" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf05" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf06" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf07" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf08" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf09" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf10" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf11" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf12" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf13" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf14" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf15" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf16" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf17" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf18" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf19" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf20" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf21" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf22" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf23" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf24" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf25" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf26" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf27" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf28" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf29" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf30" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf31" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf32" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf33" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf34" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf35" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf36" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf37" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf38" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf39" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf40" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf41" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf42" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf43" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf44" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf45" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf46" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf47" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cf48" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg01" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg02" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg03" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg04" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg05" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg06" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg07" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg08" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg09" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg10" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg11" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg12" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg13" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg14" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg15" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg16" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg17" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg18" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg19" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg20" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg21" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg22" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg23" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg24" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg25" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg26" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg27" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg28" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg29" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg30" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg31" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg32" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg33" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg34" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg35" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg36" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg37" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg38" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg39" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg40" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg41" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg42" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg43" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg44" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg45" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg46" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg47" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg48" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg49" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg50" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg51" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg52" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg53" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg54" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg55" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg56" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg57" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg58" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg59" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg60" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg61" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg62" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg63" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg64" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg65" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg66" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg67" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg68" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg69" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg70" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg71" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg72" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg73" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg74" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cg75" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ch01" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ch02" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ch03" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ch04" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ch05" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ch06" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ch07" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ch08" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ch09" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ch10" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ch11" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ch12" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ch13" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ch14" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ch15" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ch16" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ch17" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ch18" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ch19" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ch20" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ch21" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ch22" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ch23" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ch24" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ch25" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ch26" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ch27" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ch28" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ch29" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ch30" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj01" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj02" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj03" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj04" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj05" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj06" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj07" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj08" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj09" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj10" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj11" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj12" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj13" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj14" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj15" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj16" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj17" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj18" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj19" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj20" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj21" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj22" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj23" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj24" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj25" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj26" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj27" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj28" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj29" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj30" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj31" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj32" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj33" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj34" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj35" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj36" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj37" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj38" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj39" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj40" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj41" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj42" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj43" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj44" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj45" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj46" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj47" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj48" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj49" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj50" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj51" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj52" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj53" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj54" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj55" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj56" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj57" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj58" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj59" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj60" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj61" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj62" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj63" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj64" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj65" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj66" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj67" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj68" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj69" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj70" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj71" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj72" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj73" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj74" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj75" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj76" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj77" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj78" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj79" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cj80" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ck01" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ck02" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ck03" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ck04" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ck05" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ck06" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ck07" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ck08" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ck09" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ck10" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ck11" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ck12" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ck13" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ck14" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ck15" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ck16" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ck17" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ck18" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ck19" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ck20" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ck21" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ck22" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ck23" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ck24" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ck25" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ck26" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ck27" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ck28" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\ck29" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cl01" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cl02" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cl03" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cl04" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cl05" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cl06" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cl07" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cl08" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cl09" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cl10" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cl11" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cl12" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cl13" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cl14" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cl15" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cl16" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cl17" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cl18" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cl19" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cl20" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cl21" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cl22" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cl23" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cl24" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cm01" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cm02" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cm03" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cm04" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cm05" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cm06" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cn01" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cn02" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cn03" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cn04" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cn05" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cn06" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cn07" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cn08" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cn09" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cn10" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cn11" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cn12" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cn13" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cn14" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cn15" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cn16" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cn17" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cn18" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cn19" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cn20" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cn21" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cn22" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cn23" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cn24" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cn25" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cn26" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cn27" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cn28" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cn29" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cp01" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cp02" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cp03" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cp04" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cp05" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cp06" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cp07" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cp08" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cp09" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cp10" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cp11" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cp12" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cp13" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cp14" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cp15" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cp16" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cp17" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cp18" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cp19" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cp20" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cp21" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cp22" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cp23" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cp24" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cp25" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cp26" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cp27" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cp28" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cp29" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cr01" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cr02" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cr03" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cr04" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cr05" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cr06" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cr07" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cr08" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\brown\cr09" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\conll2002\README" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\conll2002\esp.testa" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\conll2002\esp.testb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\conll2002\esp.train" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\conll2002\ned.testa" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\conll2002\ned.testb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\conll2002\ned.train" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\wordnet\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\wordnet\README" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\wordnet\adj.exc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\wordnet\adv.exc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\wordnet\citation.bib" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\wordnet\cntlist.rev" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\wordnet\data.adj" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\wordnet\data.adv" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\wordnet\data.noun" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\wordnet\data.verb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\wordnet\index.adj" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\wordnet\index.adv" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\wordnet\index.noun" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\wordnet\index.sense" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\wordnet\index.verb" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\wordnet\lexnames" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\wordnet\noun.exc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\wordnet\verb.exc" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\words\README" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\words\en" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\corpora\words\en-basic" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\taggers\averaged_perceptron_tagger.zip" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\taggers\averaged_perceptron_tagger\averaged_perceptron_tagger.pickle" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\tokenizers\punkt.zip" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\tokenizers\punkt\PY3\README" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\tokenizers\punkt\PY3\czech.pickle" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\tokenizers\punkt\PY3\danish.pickle" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\tokenizers\punkt\PY3\dutch.pickle" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\tokenizers\punkt\PY3\english.pickle" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\tokenizers\punkt\PY3\estonian.pickle" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\tokenizers\punkt\PY3\finnish.pickle" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\tokenizers\punkt\PY3\french.pickle" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\tokenizers\punkt\PY3\german.pickle" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\tokenizers\punkt\PY3\greek.pickle" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\tokenizers\punkt\PY3\italian.pickle" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\tokenizers\punkt\PY3\norwegian.pickle" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\tokenizers\punkt\PY3\polish.pickle" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\tokenizers\punkt\PY3\portuguese.pickle" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\tokenizers\punkt\PY3\slovene.pickle" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\tokenizers\punkt\PY3\spanish.pickle" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\tokenizers\punkt\PY3\swedish.pickle" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\tokenizers\punkt\PY3\turkish.pickle" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\tokenizers\punkt\README" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\tokenizers\punkt\czech.pickle" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\tokenizers\punkt\danish.pickle" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\tokenizers\punkt\dutch.pickle" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\tokenizers\punkt\english.pickle" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\tokenizers\punkt\estonian.pickle" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\tokenizers\punkt\finnish.pickle" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\tokenizers\punkt\french.pickle" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\tokenizers\punkt\german.pickle" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\tokenizers\punkt\greek.pickle" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\tokenizers\punkt\italian.pickle" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\tokenizers\punkt\norwegian.pickle" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\tokenizers\punkt\polish.pickle" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\tokenizers\punkt\portuguese.pickle" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\tokenizers\punkt\slovene.pickle" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\tokenizers\punkt\spanish.pickle" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\tokenizers\punkt\swedish.pickle" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\tokenizers\punkt\turkish.pickle" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\words\README" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\words\en" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Hayden\Desktop\qasystem\src\nltk_data\words\en-basic" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="QASystem.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +605,7 @@
         <entry file="file://$PROJECT_DIR$/src/HandCraftedNER.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="77" column="99" selection-start-line="77" selection-start-column="99" selection-end-line="77" selection-end-column="99" />
+              <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -48,30 +625,28 @@
         <entry file="file://$PROJECT_DIR$/inputfile.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+              <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="overlap.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="overlap.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/overlap.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="45" />
+            <state vertical-scroll-proportion="0.032015067">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
+              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -80,8 +655,11 @@
         <entry file="file://$PROJECT_DIR$/src/Classifier.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="71" column="53" selection-start-line="71" selection-start-column="53" selection-end-line="71" selection-end-column="53" />
-              <folding />
+              <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+              <folding>
+                <marker date="1446420947665" expanded="true" signature="770:2080" placeholder="..." />
+                <marker date="1446420947665" expanded="true" signature="4912:5120" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,10 +682,10 @@
         <option value="$PROJECT_DIR$/src/nltk/data.py" />
         <option value="$PROJECT_DIR$/src/NamedEntityRecognizer.py" />
         <option value="$PROJECT_DIR$/src/text.txt" />
-        <option value="$PROJECT_DIR$/src/main.py" />
         <option value="$PROJECT_DIR$/inputfile.txt" />
         <option value="$PROJECT_DIR$/src/Classifier.py" />
         <option value="$PROJECT_DIR$/src/HandCraftedNER.py" />
+        <option value="$PROJECT_DIR$/src/main.py" />
       </list>
     </option>
   </component>
@@ -143,6 +721,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -178,7 +757,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -349,16 +927,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19114584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19114584" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.42977825" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42977825" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -421,6 +999,108 @@
     <entry file="file://$PROJECT_DIR$/src/HandCraftedNER.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/text.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inputfile.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/overlap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding>
+            <marker date="1446420947665" expanded="true" signature="770:2080" placeholder="..." />
+            <marker date="1446420947665" expanded="true" signature="4912:5120" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HandCraftedNER.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/text.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inputfile.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/overlap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Classifier.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="71" column="41" selection-start-line="71" selection-start-column="41" selection-end-line="71" selection-end-column="41" />
+          <folding>
+            <marker date="1446420947665" expanded="true" signature="770:2080" placeholder="..." />
+            <marker date="1446420947665" expanded="true" signature="4912:5120" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/HandCraftedNER.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -454,9 +1134,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -464,7 +1142,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="71" column="53" selection-start-line="71" selection-start-column="53" selection-end-line="71" selection-end-column="53" />
-          <folding />
+          <folding>
+            <marker date="1446420947665" expanded="true" signature="770:2080" placeholder="..." />
+            <marker date="1446420947665" expanded="true" signature="4912:5120" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -496,9 +1177,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -506,7 +1185,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="89" />
-          <folding />
+          <folding>
+            <marker date="1446420947665" expanded="true" signature="770:2080" placeholder="..." />
+            <marker date="1446420947665" expanded="true" signature="4912:5120" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -538,9 +1220,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="58" column="38" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -548,7 +1228,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="89" />
-          <folding />
+          <folding>
+            <marker date="1446420947665" expanded="true" signature="770:2080" placeholder="..." />
+            <marker date="1446420947665" expanded="true" signature="4912:5120" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -580,9 +1263,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -590,7 +1271,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="89" />
-          <folding />
+          <folding>
+            <marker date="1446420947665" expanded="true" signature="770:2080" placeholder="..." />
+            <marker date="1446420947665" expanded="true" signature="4912:5120" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -630,18 +1314,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/overlap.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="4" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/inputfile.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -657,15 +1333,18 @@
     <entry file="file://$PROJECT_DIR$/src/Classifier.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="71" column="53" selection-start-line="71" selection-start-column="53" selection-end-line="71" selection-end-column="53" />
-          <folding />
+          <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
+          <folding>
+            <marker date="1446420947665" expanded="true" signature="770:2080" placeholder="..." />
+            <marker date="1446420947665" expanded="true" signature="4912:5120" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/HandCraftedNER.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="77" column="99" selection-start-line="77" selection-start-column="99" selection-end-line="77" selection-end-column="99" />
+          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -673,10 +1352,16 @@
     <entry file="file://$PROJECT_DIR$/src/main.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/overlap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.032015067">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
