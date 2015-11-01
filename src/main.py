@@ -3,9 +3,10 @@ import math
 import string
 import overlap
 import os.path
-import  HandCraftedNER
+import HandCraftedNER
 import Classifier
 _properNames = {}
+
 def main():
 
     #this is only for our testing with a relative filepath; to be removed when handing in
@@ -48,26 +49,41 @@ def main():
                 qArray.append(l)
 
         for q in range(0, len(qArray), 3):
-            qID = qArray[0]
+            qID = qArray[q]
             question = formatQuestion(qArray[q+1])
             print (qID)
             print (question)
-            print "CLASSIFIER: TYPE OF RESPONSE: "
+
+            #print ("CLASSIFIER: TYPE OF RESPONSE: ")
             cl = Classifier.Classifier(question)
-
-            print cl.responseCategory
-            if(cl.responseCategory is not None):
-                print ": "+ cl.responseSubcategory
-
+            clCat = cl.responseCategory
+            clSubcat = ''
+            #print (cl.responseCategory)
+            if(cl.responseCategory == "NAMED ENTITY"):
+                #print (cl.responseSubcategory)
+                clSubcat = cl.responseSubcategory
 
             bestOverlap = overlap.bestOverlapCount(question, sentenceArray)
-            print ("Best overlap sentence: " + bestOverlap)
+            #print ("Best overlap sentence: " + bestOverlap)
             #send names into memory for efficiency
             readInProperNames()
             ner = HandCraftedNER.NER(bestOverlap, _properNames)
-            ner.printArrays()
+            #ner.printArrays()
 
-
+            if clSubcat == "PERSON" and ner.personArray:
+                print ("Answer: " + ner.personArray[0])
+            elif clSubcat == "GROUP" and ner.groupArray:
+                print ("Answer: " + ner.groupArray[0])
+            elif clSubcat == "PERSONORGROUP" and ner.personOrGroupArray:
+                print ("Answer: " + ner.personOrGroupArray[0])
+            elif clSubcat == "LOCATION" and ner.locationArray:
+                print ("Answer: " + ner.locationArray[0])
+            elif clSubcat == "TIME" and ner.timeArray:
+                print ("Answer: " + ner.timeArray[0])
+            elif clSubcat == "EVENT" and ner.eventArray:
+                print ("Answer: " + ner.eventArray[0])
+            else:
+                print ("Answer: " + bestOverlap)
 
 
         storyFile.close()
@@ -75,6 +91,8 @@ def main():
 
 def formatFileToList(file, delimiter):
     formattedList = []
+    #add misc punctuation to this array as we find it
+    miscPunctList = ['--','-']
 
     #skip the header info
     for i in range (1,7):
@@ -84,11 +102,13 @@ def formatFileToList(file, delimiter):
     sentenceList = data.split(delimiter)
 
     for line in sentenceList:
+
         #change to lowercase, remove line breaks, strip trailing whitespace
         toLower = (line).replace('\n',' ').strip()
 
         #remove punctuation
         formattedLine = "".join(c for c in toLower if c not in string.punctuation)
+        formattedLine = "".join(c for c in toLower if c not in miscPunctList)
         #only add to main list if string is non-empty
         if formattedLine:
             formattedList.append(formattedLine)
@@ -98,7 +118,7 @@ def formatFileToList(file, delimiter):
 def formatQuestion(line):
 
     #change to lowercase, remove line breaks, strip trailing whitespace
-    toLower = str.lower(line).replace('\n','').strip()
+    toLower = str(line).lower().replace('\n','').replace(',','').strip()
 
     #remove the first word 'question'
     toLower = toLower.split(' ',1)[1]

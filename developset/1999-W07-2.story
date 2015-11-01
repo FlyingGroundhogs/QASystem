@@ -18,7 +18,7 @@ garbage that goes on in life," he says.
 The 37-year-old Calgary native who now lives in Tempe, Arizona, is part
 owner of the NHL s Edmonton Oilers. He has a company that makes action
 figures, and says the timing of his announcement was tied to the yearly
-Toy Fair in New York.
+ Toy Fair in New York.
 
 Mr. McFarlane, who paid $3,005,000 U.S. for home run ball no. 70, had
 not seen the ball until Monday, when he came to New York fresh from a
