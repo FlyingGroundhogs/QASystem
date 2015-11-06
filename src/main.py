@@ -9,10 +9,7 @@ _properNames = {}
 
 def main():
 
-    #this is only for our testing with a relative filepath; to be removed when handing in
-    currentPath = os.getcwd()
-    parentDir = (os.path.abspath(os.path.join(currentPath, os.pardir)))
-    inputFilePath = os.path.join(parentDir, "inputfile.txt")
+    inputFileName = sys.argv[1]
 
     #list of IDs
     fileIDArray = []
@@ -20,13 +17,14 @@ def main():
     #collection to append .story and .questions to IDs in fileIDArray
     questionStoryArray = []
 
-    inputFile = open(inputFilePath, 'r')
+    inputFile = open(inputFileName, 'r')
     for line in inputFile:
         fileIDArray.append(line)
     inputFile.close()
 
     #file path to developset
-    developSetPath = os.path.join(parentDir, fileIDArray[0]).rstrip()
+    dSetPath = fileIDArray[0]
+    developSetPath = os.path.normpath(dSetPath).rstrip()
 
     for i in range(1,len(fileIDArray)):
         story = fileIDArray[i].rstrip() + '.story'
@@ -52,7 +50,7 @@ def main():
             qID = qArray[q]
             question = formatQuestion(qArray[q+1])
             print (qID)
-            print (question)
+            #print (question)
 
             #print ("CLASSIFIER: TYPE OF RESPONSE: ")
             cl = Classifier.Classifier(question)
@@ -81,7 +79,6 @@ def main():
             elif clSubcat == "TIME" and ner.timeArray:
                 print ("Answer: " + ner.timeArray[0])
             elif clSubcat == "EVENT" and ner.eventArray:
-
                 print ("Answer: " + ner.eventArray[0])
             else:
                 print ("Answer: " + bestOverlap)
