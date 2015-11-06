@@ -30,7 +30,7 @@ def containsGroupReference(tokens):
                        'avalanche', 'flyers', 'leafs', 'jets', 'blues', 'capitals', 'senators', 'student', 'worker',
                        'workers', 'union', 'post', 'inquirer', 'herald', 'network', 'times', 'daily', 'journal', 'press',
                        'tribune', 'star', 'sun', 'gazette', 'review', 'weekly', 'agency', 'national', 'administration', 'americans',
-                       'canadians', 'republicans', 'democrats', 'republican', 'democratic', 'order']
+                       'canadians', 'republicans', 'democrats', 'republican', 'democratic', 'order', 'federation']
 
 
         for token in tokens:
@@ -51,6 +51,7 @@ class Classifier:
        lower = str.lower(sentence).rstrip('\r\n')
        tokens = lower.split()
 
+       self.responseSubcategory = "NONE"
        if tokens.__contains__("whose"):
            self.responseCategory = RESPONSE_CATEGORIES[0]
            self.responseSubcategory = "PERSONORGROUP"
@@ -71,6 +72,7 @@ class Classifier:
        elif tokens.__contains__("where"):
            self.responseCategory = RESPONSE_CATEGORIES[0]
            self.responseSubcategory = 'LOCATION'
+
 
        elif ((tokens.__contains__("when") and tokens.__contains__("what") is False) or containsTimeReference(tokens) is True):
            self.responseCategory = RESPONSE_CATEGORIES[0]
@@ -98,7 +100,7 @@ class Classifier:
            self.responseCategory = RESPONSE_CATEGORIES[3]
            self.responseSubcategory = "QUANTITY"
 
-       elif(tokens.__contains__("what") and containsGroupReference(tokens) and (tokens.__contains__("type") is False and tokens.__contains__("kind")  )):
+       elif(tokens.__contains__("what") and containsGroupReference(tokens) and (tokens.__contains__("type") is False and tokens.__contains__("kind") is False )):
            self.responseCategory = RESPONSE_CATEGORIES[0]
            self.responseSubcategory= "GROUP"
        elif (tokens.__contains__("what")):

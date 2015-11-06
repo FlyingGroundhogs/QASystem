@@ -56,10 +56,10 @@ def main():
 
             #print ("CLASSIFIER: TYPE OF RESPONSE: ")
             cl = Classifier.Classifier(question)
-
+            clCat = cl.responseCategory
             clSubcat = ''
             #print (cl.responseCategory)
-            if(cl.responseCategory is not None):
+            if(cl.responseCategory == "NAMED ENTITY"):
                 #print (cl.responseSubcategory)
                 clSubcat = cl.responseSubcategory
 
@@ -70,17 +70,18 @@ def main():
             ner = HandCraftedNER.NER(bestOverlap, _properNames)
             #ner.printArrays()
 
-            if clSubcat is "PERSON" and ner.personArray:
+            if clSubcat == "PERSON" and ner.personArray:
                 print ("Answer: " + ner.personArray[0])
-            elif clSubcat is "GROUP" and ner.groupArray:
+            elif clSubcat == "GROUP" and ner.groupArray:
                 print ("Answer: " + ner.groupArray[0])
-            elif clSubcat is "PERSONORGROUP" and ner.personOrGroupArray:
+            elif clSubcat == "PERSONORGROUP" and ner.personOrGroupArray:
                 print ("Answer: " + ner.personOrGroupArray[0])
-            elif clSubcat is "LOCATION" and ner.locationArray:
+            elif clSubcat == "LOCATION" and ner.locationArray:
                 print ("Answer: " + ner.locationArray[0])
-            elif clSubcat is "TIME" and ner.timeArray:
+            elif clSubcat == "TIME" and ner.timeArray:
                 print ("Answer: " + ner.timeArray[0])
-            elif clSubcat is "EVENT" and ner.eventArray:
+            elif clSubcat == "EVENT" and ner.eventArray:
+
                 print ("Answer: " + ner.eventArray[0])
             else:
                 print ("Answer: " + bestOverlap)
@@ -118,7 +119,7 @@ def formatFileToList(file, delimiter):
 def formatQuestion(line):
 
     #change to lowercase, remove line breaks, strip trailing whitespace
-    toLower = str.lower(line).replace('\n','').strip()
+    toLower = str(line).lower().replace('\n','').replace(',','').strip()
 
     #remove the first word 'question'
     toLower = toLower.split(' ',1)[1]

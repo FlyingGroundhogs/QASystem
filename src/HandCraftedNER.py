@@ -13,8 +13,7 @@ class NER:
             'november','december','jan','feb','march','apr', 'aug', 'sept', 'oct', 'nov', 'dec', 'today', 'yesterday',
             'o\'clock', 'oclock', 'afternoon', 'evening', 'morning', 'daytime', 'monday', 'tuesday', 'wednesday', 'thursday',
             'friday', 'saturday', 'sunday', 'mon', 'tues', 'wed', 'thurs', 'fri', 'sat', 'sun', 'dawn', 'dusk', 'summer',
-            'winter', 'autumn', 'summertime', '1', '2', '3', '4', '5','6', '7', '8' '9', '10', '11', '12', '13',
-            '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31',
+            'winter', 'autumn', 'summertime',
             '1st', '2nd', '3rd', '4th', '5th','6th', '7th', '8th' '9th', '10th', '11th', '12th', '13th',
             '14th', '15th', '16th', '17th', '18th', '19th', '20th', '21st', '22nd', '23rd', '24th', '25th', '26th', '27th',
             '28th', '29th', '30th', '31st', 'christmas', 'thanskgiving', 'halloween', 'valentines', 'easter', 'ash' '1960s',
@@ -60,7 +59,7 @@ class NER:
                           'dakota', 'ohio', 'pennsylvania', 'pa', 'ri', 'rhode', 'carolina', 'america', 'tennessee', 'tn', 'utah'
                           'ut', 'vermont', 'virgina', 'wisconsin', 'washington', 'dc', 'wyoming', 'wy',
                         'calgary', 'toronto', 'alberta', 'nova', 'scotia', 'france', 'paris', 'london', 'barcelona',
-                          'yukon', 'columbia', 'british', 'manitoba', 'ontario', 'quebec', 'nova', 'new', 'toronto', 'of',
+                          'yukon', 'columbia', 'britain', 'manitoba', 'ontario', 'quebec', 'nova', 'new', 'toronto', 'of',
                           'angeles', 'la', 'denver', 'phoenix', 'houston', 'dallas', 'vegas', 'chicago', 'miami', 'detroit', 'wiarton',
                          'newfoundland'
                         'united', 'states']
@@ -75,7 +74,7 @@ class NER:
                        'avalanche', 'flyers', 'leafs', 'jets', 'blues', 'capitals', 'senators', 'student', 'worker',
                        'workers', 'union', 'post', 'inquirer', 'herald', 'network', 'times', 'daily', 'journal', 'press',
                        'tribune', 'star', 'sun', 'gazette', 'review', 'weekly', 'agency', 'national', 'administration', 'americans',
-                       'canadians', 'republicans', 'democrats', 'republican', 'democratic', 'order']
+                       'canadians', 'republicans', 'democrats', 'republican', 'democratic', 'order', 'federation']
 
     eventReferences = ['world', 'event', 'war', 'migration', 'battle', 'celebration', 'christmas', 'easter', 'halloween',
                        'independence', 'festival', 'harvest', 'superbowl', 'championship', 'derby', 'race', 'exposition',
@@ -139,7 +138,7 @@ class NER:
                 if(v.lower() in self.groupReferences):
                     groupScore +=1
                     personOrGroupScore +=1
-
+                    locationScore -=1
                     personScore -=2
                 if(v.lower() in self.eventReferences):
                     personScore -=2
