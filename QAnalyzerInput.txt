@@ -1,0 +1,10 @@
+QuestionID: 1999-W02-5-1
+Question: Where is South Queens Junior High School located?
+Answer: Liverpool, Nova Scotia | Canada
+Difficulty: Moderate
+
+
+QuestionID: 1999-W04-5-9
+Question: Where did reporters question Alexi Yashin?
+Answer: in the locker room | Boston
+Difficulty: Easy
