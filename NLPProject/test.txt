@@ -1,0 +1,480 @@
+QuestionID: 1999-W02-5-1
+Answer: Liverpool, Nova Scotia
+
+QuestionID: 1999-W02-5-2
+Answer: Principal Betty Jean Aucoin
+
+QuestionID: 1999-W02-5-3
+Answer: school
+
+QuestionID: 1999-W02-5-5
+Answer: Principal Betty Jean Aucoin
+
+QuestionID: 1999-W02-5-6
+Answer: The school has turned its onetime metal shop  lost to budget cuts almost two years ago  into a moneymaking professional fitness club
+
+QuestionID: 1999-W02-5-7
+Answer: The school has turned its onetime metal shop  lost to budget cuts almost two years ago  into a moneymaking professional fitness club
+
+QuestionID: 1999-W03-5-2
+Answer: Her team
+
+QuestionID: 1999-W03-5-3
+Answer: None of the members of the team expected to do as well as they did
+
+QuestionID: 1999-W03-5-4
+Answer: She was a forward and she stood only 5 feet, 2 inches tall
+
+QuestionID: 1999-W03-5-5
+Answer: They were just a group of young women from the same school who liked to play basketball
+
+QuestionID: 1999-W03-5-6
+Answer: Her team was known as the Edmonton Grads
+
+QuestionID: 1999-W03-5-7
+Answer: 1937
+
+QuestionID: 1999-W03-5-8
+Answer: The world lost a basketball hero this week  and we're not talking about Michael Jordan
+
+QuestionID: 1999-W03-5-9
+Answer: Percy Page,
+
+QuestionID: 1999-W03-5-10
+Answer: None of
+
+QuestionID: 1999-W04-5-2
+Answer: The government has been looking at a charitable donation by Ottawa Senators hockey star Alexi Yashin
+
+QuestionID: 1999-W04-5-3
+Answer: way
+
+QuestionID: 1999-W04-5-4
+Answer: Many Canadians were delighted to see that Alexi Yashin was donating so much money
+
+QuestionID: 1999-W04-5-7
+Answer: Earlier this year he promised to give one million dollars to the National Arts Centre, a concert hall where people go to see plays and dance and to hear live music
+
+QuestionID: 1999-W04-5-8
+Answer: What's more, his parents would not have to actually work
+
+QuestionID: 1999-W04-5-9
+Answer: Ottawa, Ontario
+
+QuestionID: 1999-W06-2-1
+Answer: Sam Brouwer,
+
+QuestionID: 1999-W06-2-2
+Answer: Groundhog's Day
+
+QuestionID: 1999-W06-2-3
+Answer: Sam Brouwer,
+
+QuestionID: 1999-W06-2-4
+Answer: sun
+
+QuestionID: 1999-W06-2-5
+Answer: sun
+
+QuestionID: 1999-W06-2-6
+Answer: Wiarton Willie
+
+QuestionID: 1999-W06-2-8
+Answer: Sam Brouwer,
+
+QuestionID: 1999-W06-3-1
+Answer: deal
+
+QuestionID: 1999-W06-3-2
+Answer: The code would also deal with acceptable language and set out the punishment for students who smoke, destroy property, steal, distribute hate material or carry a weapon
+
+QuestionID: 1999-W06-3-3
+Answer: deal
+
+QuestionID: 1999-W06-3-4
+Answer: may
+
+QuestionID: 1999-W06-3-5
+Answer: "If students are dressed in a sloppy manner, that kind of habit and dress may flow over into their learning habits and make it difficult to conduct proper teaching," he said
+
+QuestionID: 1999-W06-4-1
+Answer: They are attempting to become the first Westerners in more than 50 years to cross the Empty Quarter of Arabia, the world's largest sand desert
+
+QuestionID: 1999-W06-4-2
+Answer: London, England
+
+QuestionID: 1999-W06-4-3
+Answer: They set off this week on foot and by camel on a grueling trek across the burning Arabian desert
+
+QuestionID: 1999-W06-4-4
+Answer: Thesiger's book Arabian Sands told the story of his 1947 trek
+
+QuestionID: 1999-W06-4-6
+Answer: Thesiger's words of advice for the trio was to take great care of the camels because their lives depend on the very stubborn animals as transportation for themselves and their provisions
+
+QuestionID: 1999-W06-4-8
+Answer: The group was forced to return briefly to replace some broken equipment, notably camel saddles, 40 kilometres into the odyssey
+
+QuestionID: 1999-W06-4-9
+Answer: They set off this week on foot and by camel on a grueling trek across the burning Arabian desert
+
+QuestionID: 1999-W06-4-10
+Answer: 1997
+
+QuestionID: 1999-W06-4-11
+Answer: north Ayoon
+
+QuestionID: 1999-W07-2-1
+Answer: Florida
+
+QuestionID: 1999-W07-2-2
+Answer: "  The mystery man is Todd McFarlane, the creator of Spawn comic books, who says his purchase "was a mixture of business, charity and selfindulgence to the nth degree
+
+QuestionID: 1999-W07-2-3
+Answer: yesterday
+
+QuestionID: 1999-W07-2-5
+Answer: He now owns 9 historic baseballs
+
+QuestionID: 1999-W07-2-6
+Answer: National Baseball Hall of Fame
+
+QuestionID: 1999-W07-2-7
+Answer: Mark McGwire
+
+QuestionID: 1999-W07-2-9
+Answer: He has a company that makes action figures, and says the timing of his announcement was tied to the yearly  Toy Fair in New York
+
+QuestionID: 1999-W07-4-1
+Answer: Maple Leaf Gardens
+
+QuestionID: 1999-W07-4-2
+Answer: Saturday
+
+QuestionID: 1999-W07-4-3
+Answer: Maple Leaf Gardens
+
+QuestionID: 1999-W07-4-4
+Answer: Two weeks ago Brent Shuya and his son made the 3andahalf hour drive from their home in Russell, Manitoba to Winnipeg
+
+QuestionID: 1999-W07-4-5
+Answer: Saturday
+
+QuestionID: 1999-W07-4-7
+Answer: From Plum Coulee, Manitoba
+
+QuestionID: 1999-W07-4-8
+Answer: Winnipeger Bill Juzda
+
+QuestionID: 1999-W08-3-1
+Answer: Second World War
+
+QuestionID: 1999-W08-3-2
+Answer: Commonwealth
+
+QuestionID: 1999-W08-3-2
+Answer: Commonwealth
+
+QuestionID: 1999-W08-3-6
+Answer: Over half of those children  1530 of them  came to live in Canada as guests
+
+QuestionID: 1999-W08-3-7
+Answer: Geoffrey Dewis was then nine
+
+QuestionID: 1999-W08-3-8
+Answer: National Post
+
+QuestionID: 1999-W08-4-1
+Answer: Kenya
+
+QuestionID: 1999-W08-4-2
+Answer: But he defends the killings and says his nation had nothing to do with Ocalan's arrest
+
+QuestionID: 1999-W08-4-3
+Answer: TEXT:  Violent demonstrations by angry Kurds took place around the world yesterday following the arrest of rebel Kurdish leader Abdullah Ocalan
+
+QuestionID: 1999-W08-4-4
+Answer: In Ottawa on Wednesday, Kurdish demonstrators hurled a gasoline bomb at a police line, setting one officer on fire
+
+QuestionID: 1999-W08-4-5
+Answer: On Wednesday, after rumours that Israel helped Turkish securities forces capture Ocalan, angry Kurds tried to occupy the Israeli consulate in Berlin
+
+QuestionID: 1999-W08-4-6
+Answer: On Wednesday, after rumours that Israel helped Turkish securities forces capture Ocalan, angry Kurds tried to occupy the Israeli consulate in Berlin
+
+QuestionID: 1999-W08-4-7
+Answer: In Germany, Chancellor Gerhard Schroeder told the Kurds they must obey German laws and stop violent protests  or they will be thrown out of the country
+
+QuestionID: 1999-W08-4-8
+Answer: 1980
+
+QuestionID: 1999-W08-4-10
+Answer: In Turkey, police have reportedly arrested hundreds of supporters of the main Kurdish party, while up to 4,000 soldiers have been sent into Northern Iraq to attack Kurdish rebel bases
+
+QuestionID: 1999-W09-3-1
+Answer: There is only one unionized McDonald's restaurant in North America
+
+QuestionID: 1999-W09-3-3
+Answer: North America
+
+QuestionID: 1999-W09-3-5
+Answer: August
+
+QuestionID: 1999-W09-3-6
+Answer: The latest loss means an end to a campaign begun last year to unionize at least one McDonald's in every major city across Canada, which has so far cost the Teamsters about $100,000
+
+QuestionID: 1999-W09-3-7
+Answer: "If the employees don't want us there, what are you going to do?"  A statement from McDonald's Quebec regional office welcomed the vote
+
+QuestionID: 1999-W09-3-8
+Answer: There is only one unionized McDonald's restaurant in North America
+
+QuestionID: 1999-W09-4-1
+Answer: Rosie O'Donnell
+
+QuestionID: 1999-W09-4-2
+Answer: Canadian female music stars were among the big winners at last night's Grammy Awards show in Los Angeles, California
+
+QuestionID: 1999-W09-4-3
+Answer: " But American hiphop artist Lauryn Hill, beat them all
+
+QuestionID: 1999-W09-4-4
+Answer: Hill said in accepting the first bestalbum Grammy for a hiphop artist as the usually conservative awards show took its biggest step out of the mainstream
+
+QuestionID: 1999-W09-4-5
+Answer: Canadian
+
+QuestionID: 1999-W09-4-6
+Answer: "  "Titanic" sailed on as the ballad "My Heart Will Go On" won four Grammys, including best female pop vocal for Celine Dion and best song written for a motion picture or television
+
+QuestionID: 1999-W09-4-7
+Answer: Dion
+
+QuestionID: 1999-W09-4-8
+Answer: 1971
+
+QuestionID: 1999-W09-4-9
+Answer: sellers
+
+QuestionID: 1999-W09-4-10
+Answer: Canadian female music stars were among the big winners at last night's Grammy Awards show in Los Angeles, California
+
+QuestionID: 1999-W10-1-1
+Answer: Meadowvale Secondary School
+
+QuestionID: 1999-W10-1-2
+Answer: Youth News Network, a private news and currentaffairs network, has installed a satellite dish and thousands of dollars worth of televisions and audiovisual equipment at Meadowvale Secondary School free of charge
+
+QuestionID: 1999-W10-1-3
+Answer: Who knows, maybe one day soon, secondary school students all across Canada will be the same  walking, brainwashed zombies
+
+QuestionID: 1999-W10-1-4
+Answer: June
+
+QuestionID: 1999-W10-1-6
+Answer: While public broadcasters such as CBC Newsworld and TV Ontario provide programming free of charge to schools, none can come close to providing the wealth of televisions, VCRs, computers, and video cameras installed at Meadowvale under its pilot project with YNN's owner, Montrealbased Athena Educational Partners Inc
+
+QuestionID: 1999-W10-1-7
+Answer: Laurie Pedwell
+
+QuestionID: 1999-W10-1-10
+Answer: It expects to start broadcasting its 12minute newscast  complete with 2 1/2 minutes of commercials  every day to the school's 1,700 students starting in September
+
+QuestionID: 1999-W10-1-11
+Answer: Canadian Teachers Federation
+
+QuestionID: 1999-W10-2-2
+Answer: 1997
+
+QuestionID: 1999-W10-2-3
+Answer: Despite these notable absences, Nobel Peace Prize winner Jody Williams, of The International Campaign to Ban Landmines, says the accord has an impact for many other countries in the world
+
+QuestionID: 1999-W10-2-4
+Answer: Saint Michael's Uniting Church
+
+QuestionID: 1999-W10-2-5
+Answer: The governments of North and South Korea have been in constant conflict for more then 40 years
+
+QuestionID: 1999-W10-2-6
+Answer: In Brasilia, the capital city of Brazil, antilandmine pamphlets were distributed and there were screenings of "Spotlight on a Massacre", an antilandmines film in Portuguese
+
+QuestionID: 1999-W10-2-7
+Answer: North
+
+QuestionID: 1999-W10-2-9
+Answer: United States, China
+
+QuestionID: 1999-W10-3-1
+Answer: may
+
+QuestionID: 1999-W10-3-2
+Answer: On Oscar night  Sunday, March 21  actors Tom Hanks, and Gwyneth Paltrow and director Steven Spielberg  won't be the only ones sitting on the edge of their seats, hoping to hear their name read out
+
+QuestionID: 1999-W10-3-4
+Answer: Chinese government
+
+QuestionID: 1999-W10-3-5
+Answer: may
+
+QuestionID: 1999-W10-3-6
+Answer: China
+
+QuestionID: 1999-W10-3-7
+Answer: Wang
+
+QuestionID: 1999-W10-4-1
+Answer: Health Minister Allan Rock announced yesterday that his department is putting together guidelines for a scientific look at marijuana
+
+QuestionID: 1999-W10-4-2
+Answer: "  The Health Department has already consulted with the Food and Drug Administration in the United States  which is also planning similar trials  about acquiring marijuana for the tests
+
+QuestionID: 1999-W10-4-3
+Answer: Drug Administration
+
+QuestionID: 1999-W10-4-4
+Answer: He was sentenced last week to four months of house arrest and 18 months probation for growing marijuana in his backyard
+
+QuestionID: 1999-W10-4-5
+Answer: Canada
+
+QuestionID: 1999-W10-4-6
+Answer: yesterday
+
+QuestionID: 1999-W10-5-1
+Answer: Canada's rich
+
+QuestionID: 1999-W10-5-3
+Answer: When Yalnizyan looked at the Alberta data, she discovered that while Alberta's economy is growing, the difference between the rich and poor is expanding more rapidly than anywhere else in Canada
+
+QuestionID: 1999-W10-5-5
+Answer: Alberta
+
+QuestionID: 1999-W10-5-6
+Answer: The difference is most noticeable in Calgary where the city's prosperity has meant more highpaying management jobs, but also more unstable and lowpaying parttime work
+
+QuestionID: 1999-W10-5-7
+Answer: Thursday
+
+QuestionID: 1999-W11-2-1
+Answer: Canadian
+
+QuestionID: 1999-W11-2-2
+Answer: The buildup of these chemicals makes eating Arctic fish and game a frightening and tricky business
+
+QuestionID: 1999-W11-2-3
+Answer: Thursday
+
+QuestionID: 1999-W11-2-4
+Answer: Loring
+
+QuestionID: 1999-W11-2-5
+Answer: "The contamination of animals is confusing and sometimes even alarming, and even my own family members have sometimes stopped eating fish until I could talk to them and explain that the contaminants do concentrate in specific parts, so you don't have to stop eating the animals," she says
+
+QuestionID: 1999-W11-2-6
+Answer: Carole Mills works with the problem daily, both in the contaminants division of the Department of Indian and Northern Affairs, and as a representative of the Canadian Arctic Indigenous Peoples Against POPs
+
+QuestionID: 1999-W11-2-8
+Answer: 
+
+QuestionID: 1999-W11-2-9
+Answer: Loring
+
+QuestionID: 1999-W11-2-10
+Answer: "  "I would say right now it's more of a health risk to not eat country food than to eat it," Loring said, "because it contains vitamins and nutrients that they would never find in storebought food
+
+QuestionID: 1999-W11-3-1
+Answer: "  The footage, filmed last week by fishermen using government supplied equipment, shows the ocean floor after a group of seals crowded cod into a bay and started feasting
+
+QuestionID: 1999-W11-3-4
+Answer: There has been a moratorium  a temporary ban   on fishing for cod since 1992 after fish stocks dropped to dangerous levels
+
+QuestionID: 1999-W11-3-5
+Answer: 1992
+
+QuestionID: 1999-W11-3-6
+Answer: We've got an overpopulated seal herd
+
+QuestionID: 1999-W11-3-7
+Answer: Efford says the seal herd, which is estimated at six million, needs to be cut in half
+
+QuestionID: 1999-W11-3-8
+Answer: Halifax, Nova Scotia
+
+QuestionID: 1999-W11-3-10
+Answer: Today, sealing comprises a vital part of Newfoundland's sluggish economy
+
+QuestionID: 1999-W11-5-1
+Answer: The Quebec politician known as the father of Bill 101  the province's very controversial language law  has died
+
+QuestionID: 1999-W11-5-2
+Answer: The Quebec politician known as the father of Bill 101  the province's very controversial language law  has died
+
+QuestionID: 1999-W11-5-4
+Answer: Francois Gendron,
+
+QuestionID: 1999-W11-5-5
+Answer: 1977
+
+QuestionID: 1999-W11-5-6
+Answer: "  But the president of the Alliance Quebec Englishrights lobby condemned Laurin's masterwork as an attempt to "wipe out bilingualism" in Canada
+
+QuestionID: 1999-W11-5-8
+Answer: Bill 101 is credited by Quebec nationalists as helping preserve the French language in a sea of English in North America
+
+QuestionID: 1999-W12-3-1
+Answer: Clarke
+
+QuestionID: 1999-W12-3-2
+Answer: "I ll never cross the Rub alKhaly again," said the adventurer from Calgary, Alberta of his 39day trek across the Arabian desert
+
+QuestionID: 1999-W12-3-4
+Answer: But he and his team fought frustration, thirst, sandstorms and a scorching sun to make the 1,200km journey that took them from Oman, through Saudi Arabia and into the United Arab Emirates
+
+QuestionID: 1999-W12-3-6
+Answer: Calgary, Alberta of
+
+QuestionID: 1999-W12-3-8
+Answer: 1947
+
+QuestionID: 1999-W12-3-10
+Answer: 2 from Salalah, Oman, along with three Bedouin guides and their camels
+
+QuestionID: 1999-W12-4-1
+Answer: Doctors say that Tyrell Dueck, 13, will die from cancer in less than a year if he doesn t have part of his thigh bone removed and undergo chemotherapy treatments
+
+QuestionID: 1999-W12-4-3
+Answer: Saskatchewan
+
+QuestionID: 1999-W12-4-4
+Answer: Tijuana, Mexico
+
+QuestionID: 1999-W12-4-5
+Answer: A psychiatrist who talked to Tyrell to find out what he knew about his condition told the court that the boy hasn t received enough medical information
+
+QuestionID: 1999-W12-4-6
+Answer: Tyrell
+
+QuestionID: 1999-W12-4-7
+Answer: yesterday
+
+QuestionID: 1999-W12-5-2
+Answer: Two weeks
+
+QuestionID: 1999-W12-5-3
+Answer: Monday
+
+QuestionID: 1999-W12-5-4
+Answer: The unsigned flyers suggested that First Nations people love welfare and hate white people because "they have brand new cars  nice homes
+
+QuestionID: 1999-W12-5-5
+Answer: Assembly of Manitoba Chiefs
+
+QuestionID: 1999-W12-5-6
+Answer: Bushie called on politicians to encourage racial tolerance
+
+QuestionID: 1999-W12-5-7
+Answer: An act of racism against an aboriginal hockey team and its fans is the latest of many that have stained the sport, Native leaders said Thursday
+
+QuestionID: 1999-W12-5-8
+Answer: Assembly of Manitoba Chiefs
+

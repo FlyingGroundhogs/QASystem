@@ -1,0 +1,800 @@
+QuestionID: 1999-W02-5-1
+Question: Where is South Queens Junior High School located?
+Answer: Liverpool, Nova Scotia | Canada
+Difficulty: Moderate
+
+QuestionID: 1999-W02-5-2
+Question: Who is the principal of South Queens Junior High School?
+Answer: Betty Jean Aucoin
+Difficulty: Easy
+
+QuestionID: 1999-W02-5-3
+Question: What has South Queens Junior High School done with its old metal shop?
+Answer: turned it into a fitness club
+Difficulty: Moderate
+
+QuestionID: 1999-W02-5-5
+Question: Who runs the club?
+Answer: a non-profit society | school and community volunteers
+Difficulty: Moderate
+
+QuestionID: 1999-W02-5-6
+Question: How big is the club?
+Answer: 12,000 square feet
+Difficulty: Easy
+
+QuestionID: 1999-W02-5-7
+Question: If you were a student, how much would a club membership cost you?
+Answer: $135 a year
+Difficulty: Moderate 
+
+QuestionID: 1999-W03-5-2
+Question: What team did Babe play for?
+Answer: Edmonton Grads
+Difficulty: Moderate
+
+QuestionID: 1999-W03-5-3
+Question: What position did Babe play?
+Answer: forward
+Difficulty: Moderate
+
+QuestionID: 1999-W03-5-4
+Question: How tall was Babe?
+Answer: 5 feet, 2 inches 
+Difficulty: Easy
+
+QuestionID: 1999-W03-5-5
+Question: How much was Babe paid to play basketball?
+Answer: nothing | never made a cent 
+Difficulty: Moderate
+
+QuestionID: 1999-W03-5-6
+Question: How many games did the Edmonton Grads win?
+Answer: 502
+Difficulty: Easy
+
+QuestionID: 1999-W03-5-7
+Question: When did Babe play for "the finest basketball team that ever stepped out on a floor"?
+Answer: from 1929 to 1937
+Difficulty: Easy
+
+QuestionID: 1999-W03-5-8
+Question: Why did Babe stop playing basketball?
+Answer: she got married
+Difficulty: Moderate
+
+QuestionID: 1999-W03-5-9
+Question: Who was Babe's husband?
+Answer: Ian MacLean
+Difficulty: Moderate
+
+QuestionID: 1999-W03-5-10
+Question: Where did Babe's daughter find scrapbooks?
+Answer: in the family's basement
+Difficulty: Easy
+
+QuestionID: 1999-W04-5-2
+Question: How much does Alexi Yashin earn as a hockey player?
+Answer: more than three million dollars a season
+Difficulty: Easy
+
+QuestionID: 1999-W04-5-3
+Question: Who does Alexi Yashin play for?
+Answer: Ottawa Senators
+Difficulty: Easy
+
+QuestionID: 1999-W04-5-4
+Question: How much money did Alexi Yashin actually donate to the National Arts Centre?
+Answer: $200,000
+Difficulty: Moderate
+
+QuestionID: 1999-W04-5-7
+Question: Why do people go to the National Arts Centre?
+Answer: to see plays and dance and to hear live music
+Difficulty: Easy
+
+QuestionID: 1999-W04-5-8
+Question: How would Alexi's parents have benefited from his donation to the National Arts Centre?
+Answer: they would earn $85,000 a year  | the National Arts Centre would have hired them at $85,000 a year
+Difficulty: Moderate
+
+QuestionID: 1999-W04-5-9
+Question: Where did reporters question Alexi Yashin?
+Answer: in the locker room | Boston
+Difficulty: Easy
+
+QuestionID: 1999-W06-2-1
+Question: Who is Wiarton Willie?
+Answer: the famous Canadian groundhog who predicted the arrival of spring
+Difficulty: Easy
+
+QuestionID: 1999-W06-2-2
+Question: What happened to him two days before Groundhog day?
+Answer: he died | he died in his sleep | he died in his sleep of natural causes
+Difficulty: Moderate
+
+QuestionID: 1999-W06-2-3
+Question: Who took care of Willie?
+Answer: Sam Brouwer
+Difficulty: Moderate
+
+QuestionID: 1999-W06-2-4
+Question: How old was Willie when he died?
+Answer: 22
+Difficulty: Easy
+
+QuestionID: 1999-W06-2-5
+Question: When will he be buried?
+Answer: the spring
+Difficulty: Easy
+
+QuestionID: 1999-W06-2-6
+Question: Where did Willie live?
+Answer: a hutch | a hutch in the front yard of a motel south of Wiarton
+Difficulty: Moderate
+
+QuestionID: 1999-W06-2-8
+Question: Who claims to have received a message from Willie's spirit?
+Answer: Al Given | the mayor of South Bruce Peninsula | Al Given, the mayor of South Bruce Peninsula
+Difficulty: Moderate
+
+QuestionID: 1999-W06-3-1
+Question: Who plans to institute a common code of conduct for students?
+Answer: the Ontario government
+Difficulty: Easy
+
+QuestionID: 1999-W06-3-2
+Question: How many students would the code affect?
+Answer: 2.1 million
+Difficulty: Easy
+
+QuestionID: 1999-W06-3-3
+Question: Under the code, what could happen to a student who swears at a teacher?
+Answer: suspension | they might get suspended
+Difficulty: Easy
+
+QuestionID: 1999-W06-3-4
+Question: When is one time that schools will phone parents of students?
+Answer: when the student is missing | when the student is absent
+Difficulty: Moderate
+
+QuestionID: 1999-W06-3-5
+Question: According to Johnson, how might a student's sloppy clothing affect them?
+Answer: it could flow over into their learning habits and make it difficult to conduct proper teaching | it could affect their learning habits
+Difficulty: Moderate
+
+QuestionID: 1999-W06-4-1
+Question: How long has it been since Westerners crossed the world's largest sand desert?
+Answer: more than 50 years
+Difficulty: Easy
+
+QuestionID: 1999-W06-4-2
+Question: Who are the nomadic natives of Oman?
+Answer: the Bedouin
+Difficulty: Easy
+
+QuestionID: 1999-W06-4-3
+Question: What three countries will the Canadians cross through on their desert trek?
+Answer: Oman, Saudi Arabia, the United Arab Emirates
+Difficulty: Moderate
+
+QuestionID: 1999-W06-4-4
+Question: What is "Arabian Sands" about?
+Answer: Sir Wilfred Thesiger's 1947 trek
+Difficulty: Moderate
+
+QuestionID: 1999-W06-4-6
+Question: What advice did Mr. Thesiger give to the Canadians?
+Answer: take great care of the camels
+Difficulty: Easy
+
+QuestionID: 1999-W06-4-8
+Question: At what point did the group have to return to replace broken camel saddles?
+Answer: 40 kilometres into the odyssey
+Difficulty: Moderate
+
+QuestionID: 1999-W06-4-9
+Question: What type of clothing are the Canadians wearing on their journey across the desert?
+Answer: the traditional clothing of the Bedouin people | traditional Bedouin clothing
+Difficulty: Moderate
+
+QuestionID: 1999-W06-4-10
+Question: When did Clarke climb Mount Everest?
+Answer: 1997
+Difficulty: Easy
+
+QuestionID: 1999-W06-4-11
+Question: Where will the trio's journey end?
+Answer: Abu Dhabi
+Difficulty: Moderate
+
+QuestionID: 1999-W07-2-1
+Question: Where is Todd McFarlane originally from?
+Answer: Calgary | Canada
+Difficulty: Moderate
+
+QuestionID: 1999-W07-2-2
+Question: How old is Todd McFarlane?
+Answer: 37
+Difficulty: Easy
+
+QuestionID: 1999-W07-2-3
+Question: When did Todd McFarlane buy Mark McGwire's 70th home run ball?
+Answer: January 12, 1999
+Difficulty: Moderate
+
+QuestionID: 1999-W07-2-5
+Question: How many historic baseballs does McFarlane now own?
+Answer: 9 | nine
+Difficulty: Easy
+
+QuestionID: 1999-W07-2-6
+Question: What does McFarlane want in return for making the "McFarlane Collection" available to places like the National Baseball Hall of Fame?
+Answer: to take 20 swings in every major league ball park
+Difficulty: Moderate
+
+QuestionID: 1999-W07-2-7
+Question: Whose ball did McFarlane buy for about $250,000 Canadian dollars?
+Answer: Sammy Sosa's final home run of the season, No. 66
+Difficulty: Easy
+
+QuestionID: 1999-W07-2-9
+Question: How often is there a Toy Fair in New York?
+Answer: yearly
+Difficulty: Easy
+
+QuestionID: 1999-W07-4-1
+Question: What type of sports facility does Maple Leaf Gardens function as?
+Answer: a hockey rink
+Difficulty: Moderate
+
+QuestionID: 1999-W07-4-2
+Question: When was the Maple Leaf Gardens built?
+Answer: 1931
+Difficulty: Easy
+
+QuestionID: 1999-W07-4-3
+Question: Where is the Maple Leaf Gardens?
+Answer: Toronto
+Difficulty: Moderate
+
+QuestionID: 1999-W07-4-4
+Question: How far did Brent Shuya and his son have to drive just to reach Winnipeg?
+Answer: 3 and a half hours | 3 1/2 hours
+Difficulty: Easy
+
+QuestionID: 1999-W07-4-5
+Question: When did Foster Hewitt start broadcasting Maple Leaf games on the radio?
+Answer: March, 1923
+Difficulty: Easy
+
+QuestionID: 1999-W07-4-7
+Question: Where did Tommy and Ruth sit for the Leaf's games at the Gardens?
+Answer: Grey Section West, Seats 13 and 14
+Difficulty: Moderate
+
+QuestionID: 1999-W07-4-8
+Question: Who was known as one of the toughest players in the NHL in the 1950s?
+Answer: Bill Juzda
+Difficulty: Easy
+
+QuestionID: 1999-W08-3-1
+Question: What happened in Europe and England when Geoffrey was nine years old?
+Answer: the Second World War began
+Difficulty: Moderate
+
+QuestionID: 1999-W08-3-2
+Question: Where did Geoffrey Dewis live before he was nine?
+Answer: England | Britain | the Commonwealth
+Difficulty: Moderate
+
+QuestionID: 1999-W08-3-2
+Question: Where did Geoffrey Dewis live before he was nine?
+Answer: over 2,600
+Difficulty: Easy
+
+QuestionID: 1999-W08-3-6
+Question: Why did CBC produce "Canada Calling"?
+Answer: so that the British kids who were separated from their families could speak to their parents and friends back home over the airwaves
+Difficulty: Easy
+
+QuestionID: 1999-W08-3-7
+Question: When did Geoffrey Dewis die?
+Answer: this week | February 1999
+Difficulty: Easy
+
+QuestionID: 1999-W08-3-8
+Question: Who published Dewis's obituary?
+Answer: the National Post
+Difficulty: Easy
+
+QuestionID: 1999-W08-4-1
+Question: Who is Abdullah Ocalan?
+Answer: rebel Kurdish leader
+Difficulty: Easy
+
+QuestionID: 1999-W08-4-2
+Question: What do the Kurdish separatists want?
+Answer: an independent Kurdistan | a separate Kurdish homeland
+Difficulty: Moderate
+
+QuestionID: 1999-W08-4-3
+Question: Why did Kurds all over the world hold violent demonstrations?
+Answer: Abdullah Ocalan was arrested | the arrest of rebel Kurdish leader Abdullah Ocalan | Abdullah Ocalan was captured
+Difficulty: Easy
+
+QuestionID: 1999-W08-4-4
+Question: How did an Ottawa police officer get burned?
+Answer: demonstrators hurled a gasoline bomb
+Difficulty: Moderate
+
+QuestionID: 1999-W08-4-5
+Question: What triggered some Kurds to try to occupy the Israeli consulate in Berlin?
+Answer: rumours that Israel helped Turkish securities forces capture Ocalan
+Difficulty: Moderate
+
+QuestionID: 1999-W08-4-6
+Question: How many protesters were injured at the Israeli consulate in Berlin?
+Answer: 16
+Difficulty: Easy
+
+QuestionID: 1999-W08-4-7
+Question: What did Chancellor Schroeder tell the Kurds in Germany?
+Answer: they must obey German laws and stop violent protests -- or they will be thrown out of the country
+Difficulty: Easy
+
+QuestionID: 1999-W08-4-8
+Question: When did Ocalan start living outside of Turkey?
+Answer: 1980
+Difficulty: Easy
+
+QuestionID: 1999-W08-4-10
+Question: Why has Turkey sent soldiers into Northern Iraq?
+Answer: to attack Kurdish rebel bases
+Difficulty: Easy
+
+QuestionID: 1999-W09-3-1
+Question: How many McDonald's restaurants are there in North America?
+Answer: 15,000
+Difficulty: Moderate
+
+QuestionID: 1999-W09-3-3
+Question: Where is the only unionized McDonald's in North America?
+Answer: Squamish, British Columbia | Squamish | British Columbia
+Difficulty: Easy
+
+QuestionID: 1999-W09-3-5
+Question: When was the McDonald's unionized?
+Answer: last August
+Difficulty: Moderate
+
+QuestionID: 1999-W09-3-6
+Question: What happened when the Teamsters tried to unionize a McDonald's in Montreal?
+Answer: workers voted against becoming members of a trade union | 55 workers voted against unionizing | workers voted against unionizing
+Difficulty: Easy
+
+QuestionID: 1999-W09-3-7
+Question: According to their Quebec office, how did McDonald's feel about the vote to unionize the Montreal franchise?
+Answer: they welcomed the vote | it's the fairest and most responsible way to resolve the question of union representation
+Difficulty: Moderate
+
+QuestionID: 1999-W09-3-8
+Question: Why did the St-Hubert McDonald's not get unionized?
+Answer: it got shut down just as the union was about to be certified
+Difficulty: Moderate
+
+QuestionID: 1999-W09-4-1
+Question: Who was the master of ceremonies for this year's Grammy Awards?
+Answer: Rosie O'Donnell | American talk show host Rosie O'Donnell
+Difficulty: Moderate
+
+QuestionID: 1999-W09-4-2
+Question: What type of music does Lauryn Hill make?
+Answer: hip-hop | rap | R
+Difficulty: Moderate
+
+QuestionID: 1999-W09-4-3
+Question: How many children does Lauryn Hill have?
+Answer: two
+Difficulty: Moderate
+
+QuestionID: 1999-W09-4-4
+Question: Why did Jay-Z not attend the Grammy Awards?
+Answer: he doesn't like the way the Grammys treat rap
+Difficulty: Moderate
+
+QuestionID: 1999-W09-4-5
+Question: Where is Alanis Morissette from?
+Answer: Canada
+Difficulty: Moderate
+
+QuestionID: 1999-W09-4-6
+Question: What movie was the song "My Heart Will Go On" in?
+Answer: Titanic
+Difficulty: Moderate
+
+QuestionID: 1999-W09-4-7
+Question: Who wrote "My Heart Will Go On"?
+Answer: James Horner and Will Jennings
+Difficulty: Easy
+
+QuestionID: 1999-W09-4-8
+Question: When did Madonna enter the music business?
+Answer: 16 years ago
+Difficulty: Easy
+
+QuestionID: 1999-W09-4-9
+Question: Who is Will Smith's wife?
+Answer: actress Jada Pinkett Smith | Jada Pinkett Smith
+Difficulty: Easy
+
+QuestionID: 1999-W09-4-10
+Question: What other form of show business does Will Smith participate in besides music?
+Answer: acting | actor
+Difficulty: Easy
+
+QuestionID: 1999-W10-1-1
+Question: Who owns Youth News Network?  
+Answer: Athena Educational Partners Inc. | a company in Montreal
+Difficulty: moderate
+
+QuestionID: 1999-W10-1-2
+Question: What did it cost Meadowvale secondary to have a satellite dish, televisions, and audio-visual equipment installed?
+Answer: nothing | it was free | free of charge
+Difficulty: moderate 
+
+QuestionID: 1999-W10-1-3
+Question: How many students attend Meadowvale secondary school?
+Answer: 1700
+Difficulty: easy
+
+QuestionID: 1999-W10-1-4
+Question: When is the deadline by which the school must decide whether to sign a five-year contract with YNN?
+Answer: June 1999
+Difficulty: easy 
+
+QuestionID: 1999-W10-1-6
+Question: What does CBC Newsworld provide to schools?
+Answer: free TV programming | free television programming
+Difficulty: moderate
+
+QuestionID: 1999-W10-1-7
+Question: Who is the principal of Meadowvale secondary?
+Answer: Laurie Pedwell
+Difficulty: easy
+
+QuestionID: 1999-W10-1-10
+Question: How long is YNN's newscast?
+Answer: 12 minutes
+Difficulty: easy
+
+QuestionID: 1999-W10-1-11
+Question: What organization does Heather-Jane Robertson represent?
+Answer: the Canadian Teachers Federation
+Difficulty: easy
+
+QuestionID: 1999-W10-2-2
+Question: When was the international landmine treaty agreed to by 130 countries?
+Answer: 1997
+Difficulty: Easy
+
+QuestionID: 1999-W10-2-3
+Question: Which countries refused to sign the international accord on landmines?
+Answer: Russia, the United States, China and Ukraine
+Difficulty: Moderate
+
+QuestionID: 1999-W10-2-4
+Question: What do we call groups of people who are experts at ringing bells?
+Answer: carillon associations
+Difficulty: Easy
+
+QuestionID: 1999-W10-2-5
+Question: How long have North Korea and South Korea been in conflict?
+Answer: more than 40 years
+Difficulty: Easy
+
+QuestionID: 1999-W10-2-6
+Question: What is the name of the Portuguese anti-landmine film?
+Answer: "Spotlight on a Massacre"
+Difficulty: Easy
+
+QuestionID: 1999-W10-2-7
+Question: Who is the Secretary General of the United Nations?
+Answer: Kofi Annan 
+Difficulty: Easy
+
+QuestionID: 1999-W10-2-9
+Question: Where is Brasilia?
+Answer: Brazil
+Difficulty: Easy
+
+QuestionID: 1999-W10-3-1
+Question: Why will Wang Shui-Bo be attending the Oscars this year?
+Answer: He's been nominated for an award. | He's been nominated for an Oscar. | He's hoping to win.
+Difficulty: Moderate
+
+QuestionID: 1999-W10-3-2
+Question: What is the name of Wang's documentary?
+Answer: "Sunrise over Tiananmen Square"
+Difficulty: Easy
+
+QuestionID: 1999-W10-3-4
+Question: Who fired on the student demonstrators in Tiananmen Square?
+Answer: Chinese government troops
+Difficulty: Easy
+
+QuestionID: 1999-W10-3-5
+Question: When did Wang leave China?
+Answer: after the student uprising | after the Tiananmen Square massacre | after June 4, 1989
+Difficulty: Moderate
+
+QuestionID: 1999-W10-3-6
+Question: Where does Wang live now?
+Answer: Montreal, Quebec | Canada | the West
+Difficulty: Easy
+
+QuestionID: 1999-W10-3-7
+Question: Who doesn't need another revolution, according to Wang?
+Answer: the Chinese people | China
+Difficulty: Moderate
+
+QuestionID: 1999-W10-4-1
+Question: What is the scientific name for marijuana?
+Answer: Cannabis sativa
+Difficulty: Moderate
+
+QuestionID: 1999-W10-4-2
+Question: What is the Health Department's study going to examine about marijuana?
+Answer: how the drug should be administered and how a safe supply could be distributed to patients
+Difficulty: Easy
+
+QuestionID: 1999-W10-4-3
+Question: Who has the Canadian Health Department consulted with about obtaining marijuana?
+Answer: the Food and Drug Administration in the United States 
+Difficulty: Easy
+
+QuestionID: 1999-W10-4-4
+Question: Why was Mark Crossley sentenced to house arrest?
+Answer: for growing marijuana | for growing marijuana in his backyard
+Difficulty: Easy
+
+QuestionID: 1999-W10-4-5
+Question: Where has marijuana already been approved for medical use?
+Answer: several American states | in seven U.S. States and the District of Columbia
+Difficulty: Easy
+
+QuestionID: 1999-W10-4-6
+Question: How long does it take for delta-9 tetrahydrocannabinol to be absorbed into the bloodstream when someone smokes marijuana?
+Answer: minutes
+Difficulty: Moderate
+
+QuestionID: 1999-W10-5-1
+Question: Who authored a study on the differences between the rich and poor in Canada?
+Answer: Ms. Armine Yalnizyan
+Difficulty: moderate
+
+QuestionID: 1999-W10-5-3
+Question: How is Alberta's economy doing?
+Answer: well | It's growing
+Difficulty: easy
+
+QuestionID: 1999-W10-5-5
+Question: Where in Alberta, Canada is the difference between rich and poor most noticible?
+Answer: Calgary
+Difficulty: moderate
+
+QuestionID: 1999-W10-5-6
+Question: Why does Calgary have many high-paying managment jobs?
+Answer: Because it is prosperous.
+Difficulty: moderate
+
+QuestionID: 1999-W10-5-7
+Question: When did Ms. Yalnizyan give a speech?
+Answer: Thursday, March 4, 1999
+Difficulty: easy
+
+QuestionID: 1999-W11-2-1
+Question: Where did the issue of chemical pollutants in the Arctic come to a head recently?
+Answer: at a United Nations conference in Africa
+Difficulty: easy
+
+QuestionID: 1999-W11-2-2
+Question: Why is eating Arctic fish and game a frightening and tricky business?
+Answer: because of the build-up of polluting chemicals in these animals
+Difficulty: easy
+
+QuestionID: 1999-W11-2-3
+Question: When did the issue of chemical contaminants in Arctic food come to a head?
+Answer: recently | this week
+Difficulty: moderate
+
+QuestionID: 1999-W11-2-4
+Question: Who does Carole Mills represent?
+Answer: the Canadian Arctic Indigenous Peoples Against POPs
+Difficulty: easy
+
+QuestionID: 1999-W11-2-5
+Question: How does Mills convince her family members to eat fish?
+Answer: talks to them and explains that the contaminants concentrate in specific parts, so they don't have to stop eating the animals | explains that the contaminants concentrate in specific parts, so they don't have to stop eating the animals 
+Difficulty: easy
+
+QuestionID: 1999-W11-2-6
+Question: What are POPs?
+Answer: persistent organic pollutants
+Difficulty: easy
+
+QuestionID: 1999-W11-2-8
+Question: What is muktuk?
+Answer: a dish made from seal, walrus or whale fat
+Difficulty: easy
+
+QuestionID: 1999-W11-2-9
+Question: Who is Eric Loring?
+Answer: environmental wildlife coordinator with the Inuit Tapirisat of Canada
+Difficulty: easy
+
+QuestionID: 1999-W11-2-10
+Question: Why does Carole Mills think it is more of a health risk not to eat country food than to eat it?
+Answer: because country food contains vitamins and nutrients not found in store-bought food
+Difficulty: moderate
+
+QuestionID: 1999-W11-3-1
+Question: How does Newfoundland intend to use a film of seals feasting on cod?
+Answer: to increase the seal hunt
+Difficulty: easy
+
+QuestionID: 1999-W11-3-4
+Question: Why has there been a moratorium on cod fishing?
+Answer: fish stocks dropped to dangerous levels
+Difficulty: moderate
+
+QuestionID: 1999-W11-3-5
+Question: When was the moratorium instituted?
+Answer: 1992 | seven years ago
+Difficulty: easy
+
+QuestionID: 1999-W11-3-6
+Question: What is the estimated size of the seal herd?
+Answer: six million
+Difficulty: easy
+
+QuestionID: 1999-W11-3-7
+Question: By how much does John Efford want to cut the seal herd?
+Answer: in half
+Difficulty: moderate
+
+QuestionID: 1999-W11-3-8
+Question: Where is Dalhousie University?
+Answer: Halifax, Nova Scotia | Nova Scotia
+Difficulty: moderate
+
+QuestionID: 1999-W11-3-10
+Question: How much was sealing worth to the Newfoundland economy in 1996?
+Answer: in excess of $11 million
+Difficulty: easy
+
+QuestionID: 1999-W11-5-1
+Question: What is Bill 101?
+Answer: Quebec's very controversial language law
+Difficulty: easy
+
+QuestionID: 1999-W11-5-2
+Question: What does Bill 101 require?
+Answer: signs in Quebec to be in French | immigrant children to attend French schools
+Difficulty: easy
+
+QuestionID: 1999-W11-5-4
+Question: Who described Dr. Laurin as "a pioneer, a builder, a man of conviction, determined"?
+Answer: Francois Gendron, chairman of the Parti Quebecois caucus in the legislature | Francois Gendron
+Difficulty: easy
+
+QuestionID: 1999-W11-5-5
+Question: When did Bill 101 come into effect?
+Answer: 1977
+Difficulty: easy
+
+QuestionID: 1999-W11-5-6
+Question: How does the president of the Alliance Quebec English-rights lobby describe Laurin's masterwork, Bill 101?
+Answer: as an attempt to "wipe out bilingualism" in Canada
+Difficulty: moderate
+
+QuestionID: 1999-W11-5-8
+Question: How do Quebec nationalists credit Bill 101?
+Answer: as helping preserve the French language | as helping to preserve the French language in a sea of English in North America
+Difficulty: easy
+
+QuestionID: 1999-W12-3-1
+Question: Who said Bedouin ways are "a death in life."?
+Answer: T.E. Lawrence
+Difficulty: Easy
+
+QuestionID: 1999-W12-3-2
+Question: How long did it take Jamie Clarke and his companions to travel 1,200 kilometers across the Arabian desert?
+Answer: 39 days
+Difficulty: Moderate
+
+QuestionID: 1999-W12-3-4
+Question: What was one of the things that motivated Clarke during the journey?
+Answer: the kids
+Difficulty: Easy
+
+QuestionID: 1999-W12-3-6
+Question: Where did the team's journey begin?
+Answer: Salalah, Oman | Salalah | Oman
+Difficulty: Moderate
+
+QuestionID: 1999-W12-3-8
+Question: When did Clarke dream about the desert?
+Answer: before the journey
+Difficulty: Moderate
+
+QuestionID: 1999-W12-3-10
+Question: How do camels like to be spoken to?
+Answer: softly | nicely | you have to be nice to it, you have to talk softly and show your love
+Difficulty: Easy
+
+QuestionID: 1999-W12-4-1
+Question: What kind of treatments do the doctors want to give thirteen-year-old Tyrell Dueck for his cancer?
+Answer: have part of his thigh bone removed and undergo chemotherapy treatments
+Difficulty: Moderate
+
+QuestionID: 1999-W12-4-3
+Question: Where was the court where the trial took place?
+Answer: Saskatchewan | Saskatoon | Saskatoon, Saskatchewan
+Difficulty: Easy
+
+QuestionID: 1999-W12-4-4
+Question: Where does Tyrell's father want him to go?
+Answer: Tijuana, Mexico | Tijuana | Mexico | a clinic in Tijuana, Mexico
+Difficulty: Easy
+
+QuestionID: 1999-W12-4-5
+Question: How would Tyrell prefer to treat his medical condition?
+Answer: herbal remedies, doses of vitamins and a special diet | herbal and vitamin treatments
+Difficulty: Easy
+
+QuestionID: 1999-W12-4-6
+Question: Who does the boy need to speak to without his parents present, according to lawyers in the case?
+Answer: a medical doctor | doctors | his cancer doctor 
+Difficulty: Moderate
+
+QuestionID: 1999-W12-4-7
+Question: When will Tyrell likely die if he doesn't receive proper treatment?
+Answer: in less than a year
+Difficulty: Easy
+
+QuestionID: 1999-W12-5-2
+Question: Who won Monday night's game?
+Answer: The OCN Blizzards | The OCN Blizzards of the Opaskwayak Cree Nation
+Difficulty: Moderate
+
+QuestionID: 1999-W12-5-3
+Question: When did hockey fans bring hand drums to a game to taunt the Native players?
+Answer: Two weeks ago
+Difficulty: Easy
+
+QuestionID: 1999-W12-5-4
+Question: Why do First Nations people allegedly "hate white people," according to some?
+Answer: because they have brand new cars, nice homes and new clothes
+Difficulty: Easy
+
+QuestionID: 1999-W12-5-5
+Question: What is Rod Bushie's role in the Assembly of Manitoba Chiefs?
+Answer: grand chief
+Difficulty: Easy
+
+QuestionID: 1999-W12-5-6
+Question: How should politicians respond to racism, according to Bushie?
+Answer: encourage racial tolerance
+Difficulty: Easy
+
+QuestionID: 1999-W12-5-7
+Question: According to Bushie, what should the schools do to combat racism?
+Answer: more aboriginal education 
+Difficulty: Moderate
+
+QuestionID: 1999-W12-5-8
+Question: Where have the First Nation leaders been invited?
+Answer: a meeting with the city council | Dauphin city council 
+Difficulty: Easy
+
